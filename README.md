@@ -62,6 +62,11 @@ npm install
 npm start
 ```
 
+### Start file processing:
+```bash
+node process-file.js "sample data/shipments_detailed_input_wetrack_developer_assignment.json"
+```
+
 Or for development with auto-reload:
 ```bash
 npm run dev
