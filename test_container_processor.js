@@ -1,12 +1,12 @@
 const assert = require('assert');
-const { processContainerEvents, validateEvent, detectAnomalies } = require('./containerProcessor');
+const { processContainerEvents, validateEvent, detectAnomalies } = require('.services/containerProcessor.js');
 
 console.log('Running Container Processor Tests...\n');
 
 // Test 1: Happy Path - Normal events processing
 function testHappyPath() {
   console.log('Test 1: Happy Path - Normal events processing');
-  
+
   const events = [
     {
       container_id: "CONT001",
@@ -40,7 +40,7 @@ function testHappyPath() {
   ];
 
   const result = processContainerEvents(events);
-  
+
   assert(!result.error, 'Should not have validation errors');
   assert(Array.isArray(result), 'Result should be an array');
   assert(result.length === 1, 'Should process 1 container');
@@ -48,14 +48,14 @@ function testHappyPath() {
   assert(result[0].current_status === 'departed', 'Current status should be departed');
   assert(result[0].timeline.length === 3, 'Should have 3 events in timeline');
   assert(result[0].delay_minutes === undefined || typeof result[0].timeline[0].delay_minutes === 'number', 'Should have delay_minutes in timeline');
-  
+
   console.log('✅ Test 1 passed: Happy path works correctly\n');
 }
 
 // Test 2: Validation Failures
 function testValidationFailures() {
   console.log('Test 2: Validation Failures');
-  
+
   const invalidEvents = [
     {
       // Missing container_id
@@ -94,18 +94,18 @@ function testValidationFailures() {
   ];
 
   const result = processContainerEvents(invalidEvents);
-  
+
   assert(result.error === 'Validation failed', 'Should return validation error');
   assert(Array.isArray(result.validation_errors), 'Should have validation_errors array');
   assert(result.validation_errors.length > 0, 'Should have validation errors');
-  
+
   console.log(`✅ Test 2 passed: Validation correctly caught ${result.validation_errors.length} errors\n`);
 }
 
 // Test 3: Anomaly Detection - Late Arrival, Unusual Gap, Duplicate Event
 function testAnomalyDetection() {
   console.log('Test 3: Anomaly Detection');
-  
+
   const events = [
     {
       container_id: "CONT005",
@@ -148,15 +148,16 @@ function testAnomalyDetection() {
   ];
 
   const result = processContainerEvents(events);
-  
+
   assert(!result.error, 'Should not have validation errors');
   assert(result.length === 1, 'Should process 1 container');
   assert(Array.isArray(result[0].anomalies), 'Should have anomalies array');
   assert(result[0].anomalies.length > 0, 'Should detect at least one anomaly');
-  
+
   const anomalyTypes = result[0].anomalies.map(a => a.type);
-  assert(anomalyTypes.includes('late_arrival') || anomalyTypes.some(t => t.includes('late')), 'Should detect late arrival');
-  
+  assert(anomalyTypes.includes('late_arrival'), 'Should detect late_arrival');
+  assert(anomalyTypes.includes('unusual_gap'), 'Should detect unusual_gap');
+  assert(anomalyTypes.includes('duplicate_event'), 'Should detect duplicate_event');
   console.log(`✅ Test 3 passed: Detected ${result[0].anomalies.length} anomalies`);
   result[0].anomalies.forEach(anomaly => {
     console.log(`   - ${anomaly.type}: ${anomaly.message}`);
@@ -167,7 +168,7 @@ function testAnomalyDetection() {
 // Test 4: Multiple Containers
 function testMultipleContainers() {
   console.log('Test 4: Multiple Containers Processing');
-  
+
   const events = [
     {
       container_id: "CONT006",
@@ -201,19 +202,19 @@ function testMultipleContainers() {
   ];
 
   const result = processContainerEvents(events);
-  
+
   assert(!result.error, 'Should not have validation errors');
   assert(result.length === 2, 'Should process 2 containers');
   assert(result.some(r => r.container_id === 'CONT006'), 'Should contain CONT006');
   assert(result.some(r => r.container_id === 'CONT007'), 'Should contain CONT007');
-  
+
   console.log('✅ Test 4 passed: Multiple containers processed correctly\n');
 }
 
 // Test 5: Example from problem statement
 function testProblemStatementExample() {
   console.log('Test 5: Problem Statement Example');
-  
+
   const shipment = {
     container_id: "CONT_INDIA_FCL_001",
     shipment_type: "FCL",
@@ -284,13 +285,13 @@ function testProblemStatementExample() {
   }));
 
   const result = processContainerEvents(events);
-  
+
   assert(!result.error, 'Should not have validation errors');
   assert(result.length === 1, 'Should process 1 container');
   assert(result[0].container_id === 'CONT_INDIA_FCL_001', 'Container ID should match');
   assert(result[0].timeline.length === 5, 'Should have 5 events in timeline');
   assert(result[0].current_location === 'Port of Rotterdam', 'Current location should be Port of Rotterdam');
-  
+
   console.log('✅ Test 5 passed: Problem statement example processed correctly');
   console.log(`   Container: ${result[0].container_id}`);
   console.log(`   Status: ${result[0].current_status}`);
@@ -307,7 +308,7 @@ try {
   testAnomalyDetection();
   testMultipleContainers();
   testProblemStatementExample();
-  
+
   console.log('🎉 All tests passed successfully!');
 } catch (error) {
   console.error('❌ Test failed:', error.message);

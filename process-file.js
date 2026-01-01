@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/env node  for lined data format
 
 /**
  * CLI script to process shipment JSON files
@@ -7,7 +7,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { processContainerEvents } = require('./containerProcessor');
+const { processContainerEvents } = require('./services/containerProcessor');
 
 // Get file path from command line arguments
 const filePath = process.argv[2];
@@ -103,17 +103,6 @@ if (result.error) {
   });
   process.exit(1);
 }
-
-// Display results
-console.log('='.repeat(60));
-console.log('PROCESSING RESULTS');
-console.log('='.repeat(60));
-console.log(`File: ${resolvedPath}`);
-console.log(`Shipments Processed: ${shipments.length}`);
-console.log(`Containers Processed: ${result.length}`);
-console.log(`Total Events: ${allEvents.length}`);
-console.log('='.repeat(60));
-console.log('');
 
 // Display processing summary to stderr
 console.error('\n' + '='.repeat(60));

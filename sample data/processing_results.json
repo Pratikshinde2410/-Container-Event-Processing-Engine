@@ -1,9 +1,29 @@
 [
   {
     "container_id": "CONT_INDIA_FCL_001",
-    "current_status": "at_port",
+    "current_status": "Arrived at Destination",
     "current_location": "Port of Rotterdam",
     "last_event_time": "2024-12-10T06:00:00Z",
+    "total_events": 5,
+    "journey_progress": 80,
+    "anomalies": [
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 58 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 160 hours from previous event"
+      },
+      {
+        "type": "late_arrival",
+        "message": "Arrived 1800 minutes late"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 366 hours from previous event"
+      }
+    ],
     "timeline": [
       {
         "event_type": "port_arrival",
@@ -32,32 +52,37 @@
         "location": "Port of Rotterdam",
         "delay_minutes": 1800
       }
-    ],
-    "anomalies": [
-      {
-        "type": "unusual_gap",
-        "message": "More than 58 hours gap between events (port_arrival and customs_clearance)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 160 hours gap between events (port_departure and in_transit)"
-      },
-      {
-        "type": "late_arrival",
-        "message": "Container arrived 1800 minutes after expected time"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 366 hours gap between events (in_transit and port_arrival)"
-      }
-    ],
-    "journey_progress": 100
+    ]
   },
   {
     "container_id": "CONT_INDIA_FCL_002",
-    "current_status": "at_port",
+    "current_status": "Arrived at Destination",
     "current_location": "Port of Singapore",
     "last_event_time": "2024-11-25T10:00:00Z",
+    "total_events": 5,
+    "journey_progress": 60,
+    "anomalies": [
+      {
+        "type": "late_arrival",
+        "message": "Arrived 240 minutes late"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 30 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 28 hours from previous event"
+      },
+      {
+        "type": "late_arrival",
+        "message": "Arrived 600 minutes late"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 146 hours from previous event"
+      }
+    ],
     "timeline": [
       {
         "event_type": "port_arrival",
@@ -86,36 +111,37 @@
         "location": "Port of Singapore",
         "delay_minutes": 600
       }
-    ],
-    "anomalies": [
-      {
-        "type": "late_arrival",
-        "message": "Container arrived 240 minutes after expected time"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 30 hours gap between events (port_arrival and customs_inspection)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 28 hours gap between events (customs_inspection and customs_clearance)"
-      },
-      {
-        "type": "late_arrival",
-        "message": "Container arrived 600 minutes after expected time"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 146 hours gap between events (port_departure and port_arrival)"
-      }
-    ],
-    "journey_progress": 60
+    ]
   },
   {
     "container_id": "CONT_INDIA_FCL_003",
-    "current_status": "at_port",
+    "current_status": "Arrived at Destination",
     "current_location": "Port of Hong Kong",
     "last_event_time": "2024-11-27T04:00:00Z",
+    "total_events": 5,
+    "journey_progress": 60,
+    "anomalies": [
+      {
+        "type": "late_arrival",
+        "message": "Arrived 360 minutes late"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 26 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 32 hours from previous event"
+      },
+      {
+        "type": "late_arrival",
+        "message": "Arrived 1680 minutes late"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 210 hours from previous event"
+      }
+    ],
     "timeline": [
       {
         "event_type": "port_arrival",
@@ -144,36 +170,33 @@
         "location": "Port of Hong Kong",
         "delay_minutes": 1680
       }
-    ],
-    "anomalies": [
-      {
-        "type": "late_arrival",
-        "message": "Container arrived 360 minutes after expected time"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 26 hours gap between events (port_arrival and documentation_hold)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 32 hours gap between events (documentation_hold and customs_clearance)"
-      },
-      {
-        "type": "late_arrival",
-        "message": "Container arrived 1680 minutes after expected time"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 210 hours gap between events (port_departure and port_arrival)"
-      }
-    ],
-    "journey_progress": 60
+    ]
   },
   {
     "container_id": "CONT_INDIA_FCL_004",
-    "current_status": "at_port",
+    "current_status": "Arrived at Destination",
     "current_location": "Port of Jebel Ali",
     "last_event_time": "2024-11-23T16:00:00Z",
+    "total_events": 4,
+    "journey_progress": 60,
+    "anomalies": [
+      {
+        "type": "late_arrival",
+        "message": "Arrived 240 minutes late"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 50 hours from previous event"
+      },
+      {
+        "type": "late_arrival",
+        "message": "Arrived 960 minutes late"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 82 hours from previous event"
+      }
+    ],
     "timeline": [
       {
         "event_type": "port_arrival",
@@ -197,32 +220,37 @@
         "location": "Port of Jebel Ali",
         "delay_minutes": 960
       }
-    ],
-    "anomalies": [
-      {
-        "type": "late_arrival",
-        "message": "Container arrived 240 minutes after expected time"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 50 hours gap between events (port_arrival and customs_clearance)"
-      },
-      {
-        "type": "late_arrival",
-        "message": "Container arrived 960 minutes after expected time"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 82 hours gap between events (port_departure and port_arrival)"
-      }
-    ],
-    "journey_progress": 60
+    ]
   },
   {
     "container_id": "CONT_TRANS_IMP_001",
-    "current_status": "at_port",
+    "current_status": "Arrived at Destination",
     "current_location": "Port of Mumbai",
     "last_event_time": "2024-12-11T08:00:00Z",
+    "total_events": 6,
+    "journey_progress": 20,
+    "anomalies": [
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 50 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 352 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 28 hours from previous event"
+      },
+      {
+        "type": "late_arrival",
+        "message": "Arrived 480 minutes late"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 146 hours from previous event"
+      }
+    ],
     "timeline": [
       {
         "event_type": "port_arrival",
@@ -256,36 +284,37 @@
         "location": "Port of Mumbai",
         "delay_minutes": 480
       }
-    ],
-    "anomalies": [
-      {
-        "type": "unusual_gap",
-        "message": "More than 50 hours gap between events (port_arrival and port_departure)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 352 hours gap between events (port_departure and transshipment_arrival)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 28 hours gap between events (transshipment_arrival and transshipment_loading)"
-      },
-      {
-        "type": "late_arrival",
-        "message": "Container arrived 480 minutes after expected time"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 146 hours gap between events (port_departure and port_arrival)"
-      }
-    ],
-    "journey_progress": 20
+    ]
   },
   {
     "container_id": "CONT_TRANS_IMP_002",
-    "current_status": "at_port",
+    "current_status": "Arrived at Destination",
     "current_location": "Port of Chennai",
     "last_event_time": "2024-12-07T10:00:00Z",
+    "total_events": 6,
+    "journey_progress": 20,
+    "anomalies": [
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 50 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 188 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 30 hours from previous event"
+      },
+      {
+        "type": "late_arrival",
+        "message": "Arrived 600 minutes late"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 242 hours from previous event"
+      }
+    ],
     "timeline": [
       {
         "event_type": "port_arrival",
@@ -319,36 +348,37 @@
         "location": "Port of Chennai",
         "delay_minutes": 600
       }
-    ],
-    "anomalies": [
-      {
-        "type": "unusual_gap",
-        "message": "More than 50 hours gap between events (port_arrival and port_departure)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 188 hours gap between events (port_departure and transshipment_arrival)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 30 hours gap between events (transshipment_arrival and transshipment_loading)"
-      },
-      {
-        "type": "late_arrival",
-        "message": "Container arrived 600 minutes after expected time"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 242 hours gap between events (port_departure and port_arrival)"
-      }
-    ],
-    "journey_progress": 20
+    ]
   },
   {
     "container_id": "CONT_TRANS_IMP_003",
-    "current_status": "at_port",
+    "current_status": "Arrived at Destination",
     "current_location": "Port of Cochin",
     "last_event_time": "2024-12-03T12:00:00Z",
+    "total_events": 6,
+    "journey_progress": 20,
+    "anomalies": [
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 50 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 186 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 28 hours from previous event"
+      },
+      {
+        "type": "late_arrival",
+        "message": "Arrived 720 minutes late"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 98 hours from previous event"
+      }
+    ],
     "timeline": [
       {
         "event_type": "port_arrival",
@@ -382,36 +412,65 @@
         "location": "Port of Cochin",
         "delay_minutes": 720
       }
-    ],
-    "anomalies": [
-      {
-        "type": "unusual_gap",
-        "message": "More than 50 hours gap between events (port_arrival and port_departure)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 186 hours gap between events (port_departure and transshipment_arrival)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 28 hours gap between events (transshipment_arrival and transshipment_loading)"
-      },
-      {
-        "type": "late_arrival",
-        "message": "Container arrived 720 minutes after expected time"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 98 hours gap between events (port_departure and port_arrival)"
-      }
-    ],
-    "journey_progress": 20
+    ]
   },
   {
     "container_id": "CONT_LCL_EXP_T001",
-    "current_status": "at_port",
+    "current_status": "Arrived at Destination",
     "current_location": "Port of Hamburg",
     "last_event_time": "2024-12-17T12:00:00Z",
+    "total_events": 8,
+    "journey_progress": 20,
+    "anomalies": [
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 50 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 26 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 260 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 50 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 28 hours from previous event"
+      },
+      {
+        "type": "late_arrival",
+        "message": "Arrived 720 minutes late"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 340 hours from previous event"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'lcl_consolidation' follows 'lcl_pickup'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'port_departure' follows 'lcl_consolidation'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'lcl_deconsolidation' follows 'transshipment_arrival'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'lcl_consolidation' follows 'lcl_deconsolidation'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'port_departure' follows 'lcl_consolidation'"
+      }
+    ],
     "timeline": [
       {
         "event_type": "lcl_pickup",
@@ -454,52 +513,61 @@
         "location": "Port of Hamburg",
         "delay_minutes": 720
       }
-    ],
-    "anomalies": [
-      {
-        "type": "unusual_gap",
-        "message": "More than 50 hours gap between events (lcl_pickup and lcl_consolidation)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 26 hours gap between events (lcl_consolidation and port_departure)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 260 hours gap between events (port_departure and transshipment_arrival)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 50 hours gap between events (transshipment_arrival and lcl_deconsolidation)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 28 hours gap between events (lcl_deconsolidation and lcl_consolidation)"
-      },
-      {
-        "type": "late_arrival",
-        "message": "Container arrived 720 minutes after expected time"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 340 hours gap between events (port_departure and port_arrival)"
-      },
-      {
-        "type": "out_of_sequence",
-        "message": "Out of sequence: lcl_deconsolidation follows transshipment_arrival unexpectedly"
-      },
-      {
-        "type": "out_of_sequence",
-        "message": "Out of sequence: lcl_consolidation follows lcl_deconsolidation unexpectedly"
-      }
-    ],
-    "journey_progress": 20
+    ]
   },
   {
     "container_id": "CONT_LCL_EXP_T002",
-    "current_status": "at_port",
+    "current_status": "Arrived at Destination",
     "current_location": "Port of London",
     "last_event_time": "2024-12-13T14:00:00Z",
+    "total_events": 9,
+    "journey_progress": 20,
+    "anomalies": [
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 218 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 26 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 26 hours from previous event"
+      },
+      {
+        "type": "late_arrival",
+        "message": "Arrived 840 minutes late"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 316 hours from previous event"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'road_checkpoint' follows 'lcl_pickup'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'lcl_consolidation' follows 'road_checkpoint'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'port_departure' follows 'lcl_consolidation'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'lcl_deconsolidation' follows 'port_arrival'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'lcl_consolidation' follows 'lcl_deconsolidation'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'port_departure' follows 'lcl_consolidation'"
+      }
+    ],
     "timeline": [
       {
         "event_type": "lcl_pickup",
@@ -547,44 +615,61 @@
         "location": "Port of London",
         "delay_minutes": 840
       }
-    ],
-    "anomalies": [
-      {
-        "type": "unusual_gap",
-        "message": "More than 218 hours gap between events (port_departure and port_arrival)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 26 hours gap between events (port_arrival and lcl_deconsolidation)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 26 hours gap between events (lcl_deconsolidation and lcl_consolidation)"
-      },
-      {
-        "type": "late_arrival",
-        "message": "Container arrived 840 minutes after expected time"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 316 hours gap between events (port_departure and port_arrival)"
-      },
-      {
-        "type": "out_of_sequence",
-        "message": "Out of sequence: lcl_deconsolidation follows port_arrival unexpectedly"
-      },
-      {
-        "type": "out_of_sequence",
-        "message": "Out of sequence: lcl_consolidation follows lcl_deconsolidation unexpectedly"
-      }
-    ],
-    "journey_progress": 20
+    ]
   },
   {
     "container_id": "CONT_LCL_EXP_T003",
-    "current_status": "at_port",
+    "current_status": "Arrived at Destination",
     "current_location": "Port of Vancouver",
     "last_event_time": "2024-12-19T10:00:00Z",
+    "total_events": 8,
+    "journey_progress": 20,
+    "anomalies": [
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 50 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 218 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 26 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 30 hours from previous event"
+      },
+      {
+        "type": "late_arrival",
+        "message": "Arrived 600 minutes late"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 454 hours from previous event"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'lcl_consolidation' follows 'lcl_pickup'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'port_departure' follows 'lcl_consolidation'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'lcl_deconsolidation' follows 'port_arrival'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'lcl_consolidation' follows 'lcl_deconsolidation'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'port_departure' follows 'lcl_consolidation'"
+      }
+    ],
     "timeline": [
       {
         "event_type": "lcl_pickup",
@@ -627,48 +712,57 @@
         "location": "Port of Vancouver",
         "delay_minutes": 600
       }
-    ],
-    "anomalies": [
-      {
-        "type": "unusual_gap",
-        "message": "More than 50 hours gap between events (lcl_pickup and lcl_consolidation)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 218 hours gap between events (port_departure and port_arrival)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 26 hours gap between events (port_arrival and lcl_deconsolidation)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 30 hours gap between events (lcl_deconsolidation and lcl_consolidation)"
-      },
-      {
-        "type": "late_arrival",
-        "message": "Container arrived 600 minutes after expected time"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 454 hours gap between events (port_departure and port_arrival)"
-      },
-      {
-        "type": "out_of_sequence",
-        "message": "Out of sequence: lcl_deconsolidation follows port_arrival unexpectedly"
-      },
-      {
-        "type": "out_of_sequence",
-        "message": "Out of sequence: lcl_consolidation follows lcl_deconsolidation unexpectedly"
-      }
-    ],
-    "journey_progress": 20
+    ]
   },
   {
     "container_id": "CONT_LCL_EXP_T004",
-    "current_status": "at_port",
+    "current_status": "Arrived at Destination",
     "current_location": "Port of Jeddah",
     "last_event_time": "2024-11-29T14:00:00Z",
+    "total_events": 8,
+    "journey_progress": 20,
+    "anomalies": [
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 30 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 146 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 26 hours from previous event"
+      },
+      {
+        "type": "late_arrival",
+        "message": "Arrived 840 minutes late"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 54 hours from previous event"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'lcl_consolidation' follows 'lcl_pickup'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'port_departure' follows 'lcl_consolidation'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'lcl_deconsolidation' follows 'port_arrival'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'lcl_consolidation' follows 'lcl_deconsolidation'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'port_departure' follows 'lcl_consolidation'"
+      }
+    ],
     "timeline": [
       {
         "event_type": "lcl_pickup",
@@ -711,44 +805,61 @@
         "location": "Port of Jeddah",
         "delay_minutes": 840
       }
-    ],
-    "anomalies": [
-      {
-        "type": "unusual_gap",
-        "message": "More than 30 hours gap between events (lcl_pickup and lcl_consolidation)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 146 hours gap between events (port_departure and port_arrival)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 26 hours gap between events (lcl_deconsolidation and lcl_consolidation)"
-      },
-      {
-        "type": "late_arrival",
-        "message": "Container arrived 840 minutes after expected time"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 54 hours gap between events (port_departure and port_arrival)"
-      },
-      {
-        "type": "out_of_sequence",
-        "message": "Out of sequence: lcl_deconsolidation follows port_arrival unexpectedly"
-      },
-      {
-        "type": "out_of_sequence",
-        "message": "Out of sequence: lcl_consolidation follows lcl_deconsolidation unexpectedly"
-      }
-    ],
-    "journey_progress": 20
+    ]
   },
   {
     "container_id": "CONT_LCL_EXP_T005",
-    "current_status": "at_port",
+    "current_status": "Arrived at Destination",
     "current_location": "Port of Sydney",
     "last_event_time": "2024-12-13T16:00:00Z",
+    "total_events": 8,
+    "journey_progress": 20,
+    "anomalies": [
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 52 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 260 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 26 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 26 hours from previous event"
+      },
+      {
+        "type": "late_arrival",
+        "message": "Arrived 960 minutes late"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 270 hours from previous event"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'lcl_consolidation' follows 'lcl_pickup'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'port_departure' follows 'lcl_consolidation'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'lcl_deconsolidation' follows 'port_arrival'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'lcl_consolidation' follows 'lcl_deconsolidation'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'port_departure' follows 'lcl_consolidation'"
+      }
+    ],
     "timeline": [
       {
         "event_type": "lcl_pickup",
@@ -791,48 +902,77 @@
         "location": "Port of Sydney",
         "delay_minutes": 960
       }
-    ],
-    "anomalies": [
-      {
-        "type": "unusual_gap",
-        "message": "More than 52 hours gap between events (lcl_pickup and lcl_consolidation)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 260 hours gap between events (port_departure and port_arrival)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 26 hours gap between events (port_arrival and lcl_deconsolidation)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 26 hours gap between events (lcl_deconsolidation and lcl_consolidation)"
-      },
-      {
-        "type": "late_arrival",
-        "message": "Container arrived 960 minutes after expected time"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 270 hours gap between events (port_departure and port_arrival)"
-      },
-      {
-        "type": "out_of_sequence",
-        "message": "Out of sequence: lcl_deconsolidation follows port_arrival unexpectedly"
-      },
-      {
-        "type": "out_of_sequence",
-        "message": "Out of sequence: lcl_consolidation follows lcl_deconsolidation unexpectedly"
-      }
-    ],
-    "journey_progress": 20
+    ]
   },
   {
     "container_id": "CONT_LCL_IMP_T001",
-    "current_status": "delivered",
+    "current_status": "Delivered",
     "current_location": "Mumbai CFS",
     "last_event_time": "2024-12-16T16:00:00Z",
+    "total_events": 11,
+    "journey_progress": 40,
+    "anomalies": [
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 26 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 26 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 380 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 26 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 28 hours from previous event"
+      },
+      {
+        "type": "late_arrival",
+        "message": "Arrived 720 minutes late"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 146 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 52 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 26 hours from previous event"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'lcl_consolidation' follows 'lcl_pickup'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'port_departure' follows 'lcl_consolidation'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'lcl_deconsolidation' follows 'port_arrival'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'lcl_consolidation' follows 'lcl_deconsolidation'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'port_departure' follows 'lcl_consolidation'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'lcl_delivery' follows 'customs_clearance'"
+      }
+    ],
     "timeline": [
       {
         "event_type": "lcl_pickup",
@@ -890,64 +1030,77 @@
         "timestamp": "2024-12-16T16:00:00Z",
         "location": "Mumbai CFS"
       }
-    ],
-    "anomalies": [
-      {
-        "type": "unusual_gap",
-        "message": "More than 26 hours gap between events (lcl_pickup and lcl_consolidation)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 26 hours gap between events (lcl_consolidation and port_departure)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 380 hours gap between events (port_departure and port_arrival)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 26 hours gap between events (port_arrival and lcl_deconsolidation)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 28 hours gap between events (lcl_deconsolidation and lcl_consolidation)"
-      },
-      {
-        "type": "late_arrival",
-        "message": "Container arrived 720 minutes after expected time"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 146 hours gap between events (port_departure and port_arrival)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 52 hours gap between events (customs_hold and customs_clearance)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 26 hours gap between events (customs_clearance and lcl_delivery)"
-      },
-      {
-        "type": "out_of_sequence",
-        "message": "Out of sequence: lcl_deconsolidation follows port_arrival unexpectedly"
-      },
-      {
-        "type": "out_of_sequence",
-        "message": "Out of sequence: lcl_consolidation follows lcl_deconsolidation unexpectedly"
-      },
-      {
-        "type": "out_of_sequence",
-        "message": "Out of sequence: lcl_delivery follows customs_clearance unexpectedly"
-      }
-    ],
-    "journey_progress": 40
+    ]
   },
   {
     "container_id": "CONT_LCL_IMP_T002",
-    "current_status": "delivered",
+    "current_status": "Delivered",
     "current_location": "Chennai CFS",
     "last_event_time": "2024-12-13T14:00:00Z",
+    "total_events": 9,
+    "journey_progress": 20,
+    "anomalies": [
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 30 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 26 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 212 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 50 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 28 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 40 hours from previous event"
+      },
+      {
+        "type": "late_arrival",
+        "message": "Arrived 2040 minutes late"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 242 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 52 hours from previous event"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'lcl_consolidation' follows 'lcl_pickup'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'port_departure' follows 'lcl_consolidation'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'lcl_deconsolidation' follows 'port_arrival'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'lcl_consolidation' follows 'lcl_deconsolidation'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'port_departure' follows 'lcl_consolidation'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'lcl_delivery' follows 'port_arrival'"
+      }
+    ],
     "timeline": [
       {
         "event_type": "lcl_pickup",
@@ -995,64 +1148,69 @@
         "timestamp": "2024-12-13T14:00:00Z",
         "location": "Chennai CFS"
       }
-    ],
-    "anomalies": [
-      {
-        "type": "unusual_gap",
-        "message": "More than 30 hours gap between events (lcl_pickup and lcl_consolidation)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 26 hours gap between events (lcl_consolidation and port_departure)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 212 hours gap between events (port_departure and port_arrival)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 50 hours gap between events (port_arrival and lcl_deconsolidation)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 28 hours gap between events (lcl_deconsolidation and lcl_consolidation)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 40 hours gap between events (lcl_consolidation and port_departure)"
-      },
-      {
-        "type": "late_arrival",
-        "message": "Container arrived 2040 minutes after expected time"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 242 hours gap between events (port_departure and port_arrival)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 52 hours gap between events (port_arrival and lcl_delivery)"
-      },
-      {
-        "type": "out_of_sequence",
-        "message": "Out of sequence: lcl_deconsolidation follows port_arrival unexpectedly"
-      },
-      {
-        "type": "out_of_sequence",
-        "message": "Out of sequence: lcl_consolidation follows lcl_deconsolidation unexpectedly"
-      },
-      {
-        "type": "out_of_sequence",
-        "message": "Out of sequence: lcl_delivery follows port_arrival unexpectedly"
-      }
-    ],
-    "journey_progress": 20
+    ]
   },
   {
     "container_id": "CONT_LCL_IMP_T003",
-    "current_status": "delivered",
+    "current_status": "Delivered",
     "current_location": "Cochin CFS",
     "last_event_time": "2024-12-10T12:00:00Z",
+    "total_events": 11,
+    "journey_progress": 20,
+    "anomalies": [
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 26 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 126 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 52 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 26 hours from previous event"
+      },
+      {
+        "type": "late_arrival",
+        "message": "Arrived 600 minutes late"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 166 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 100 hours from previous event"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'lcl_consolidation' follows 'lcl_pickup'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'port_departure' follows 'lcl_consolidation'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'lcl_deconsolidation' follows 'documentation_hold'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'lcl_consolidation' follows 'lcl_deconsolidation'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'port_departure' follows 'lcl_consolidation'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'lcl_delivery' follows 'customs_hold'"
+      }
+    ],
     "timeline": [
       {
         "event_type": "lcl_pickup",
@@ -1110,56 +1268,69 @@
         "timestamp": "2024-12-10T12:00:00Z",
         "location": "Cochin CFS"
       }
-    ],
-    "anomalies": [
-      {
-        "type": "unusual_gap",
-        "message": "More than 26 hours gap between events (lcl_pickup and lcl_consolidation)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 126 hours gap between events (port_departure and port_arrival)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 52 hours gap between events (documentation_hold and lcl_deconsolidation)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 26 hours gap between events (lcl_deconsolidation and lcl_consolidation)"
-      },
-      {
-        "type": "late_arrival",
-        "message": "Container arrived 600 minutes after expected time"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 166 hours gap between events (port_departure and port_arrival)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 100 hours gap between events (customs_hold and lcl_delivery)"
-      },
-      {
-        "type": "out_of_sequence",
-        "message": "Out of sequence: lcl_deconsolidation follows documentation_hold unexpectedly"
-      },
-      {
-        "type": "out_of_sequence",
-        "message": "Out of sequence: lcl_consolidation follows lcl_deconsolidation unexpectedly"
-      },
-      {
-        "type": "out_of_sequence",
-        "message": "Out of sequence: lcl_delivery follows customs_hold unexpectedly"
-      }
-    ],
-    "journey_progress": 20
+    ]
   },
   {
     "container_id": "CONT_LCL_IMP_T004",
-    "current_status": "delivered",
+    "current_status": "Delivered",
     "current_location": "Bangalore CFS",
     "last_event_time": "2024-12-09T16:00:00Z",
+    "total_events": 10,
+    "journey_progress": 20,
+    "anomalies": [
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 50 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 174 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 30 hours from previous event"
+      },
+      {
+        "type": "late_arrival",
+        "message": "Arrived 720 minutes late"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 194 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 52 hours from previous event"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'lcl_consolidation' follows 'lcl_pickup'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'port_departure' follows 'lcl_consolidation'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'lcl_damage_inspection' follows 'port_arrival'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'lcl_deconsolidation' follows 'lcl_damage_inspection'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'lcl_consolidation' follows 'lcl_deconsolidation'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'port_departure' follows 'lcl_consolidation'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'lcl_delivery' follows 'port_arrival'"
+      }
+    ],
     "timeline": [
       {
         "event_type": "lcl_pickup",
@@ -1212,56 +1383,77 @@
         "timestamp": "2024-12-09T16:00:00Z",
         "location": "Bangalore CFS"
       }
-    ],
-    "anomalies": [
-      {
-        "type": "unusual_gap",
-        "message": "More than 50 hours gap between events (lcl_pickup and lcl_consolidation)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 174 hours gap between events (port_departure and port_arrival)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 30 hours gap between events (lcl_damage_inspection and lcl_deconsolidation)"
-      },
-      {
-        "type": "late_arrival",
-        "message": "Container arrived 720 minutes after expected time"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 194 hours gap between events (port_departure and port_arrival)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 52 hours gap between events (port_arrival and lcl_delivery)"
-      },
-      {
-        "type": "out_of_sequence",
-        "message": "Out of sequence: lcl_damage_inspection follows port_arrival unexpectedly"
-      },
-      {
-        "type": "out_of_sequence",
-        "message": "Out of sequence: lcl_deconsolidation follows lcl_damage_inspection unexpectedly"
-      },
-      {
-        "type": "out_of_sequence",
-        "message": "Out of sequence: lcl_consolidation follows lcl_deconsolidation unexpectedly"
-      },
-      {
-        "type": "out_of_sequence",
-        "message": "Out of sequence: lcl_delivery follows port_arrival unexpectedly"
-      }
-    ],
-    "journey_progress": 20
+    ]
   },
   {
     "container_id": "CONT_LCL_IMP_T005",
-    "current_status": "delivered",
+    "current_status": "Delivered",
     "current_location": "Delhi CFS",
     "last_event_time": "2024-12-12T14:00:00Z",
+    "total_events": 11,
+    "journey_progress": 40,
+    "anomalies": [
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 44 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 26 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 44 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 26 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 76 hours from previous event"
+      },
+      {
+        "type": "late_arrival",
+        "message": "Arrived 600 minutes late"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 314 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 30 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 46 hours from previous event"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'lcl_consolidation' follows 'lcl_pickup'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'port_departure' follows 'lcl_consolidation'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'lcl_deconsolidation' follows 'customs_hold'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'lcl_consolidation' follows 'lcl_deconsolidation'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'port_departure' follows 'lcl_consolidation'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'lcl_delivery' follows 'customs_clearance'"
+      }
+    ],
     "timeline": [
       {
         "event_type": "lcl_pickup",
@@ -1319,64 +1511,77 @@
         "timestamp": "2024-12-12T14:00:00Z",
         "location": "Delhi CFS"
       }
-    ],
-    "anomalies": [
-      {
-        "type": "unusual_gap",
-        "message": "More than 44 hours gap between events (lcl_pickup and lcl_consolidation)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 26 hours gap between events (lcl_consolidation and port_departure)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 44 hours gap between events (port_departure and port_arrival)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 26 hours gap between events (port_arrival and customs_hold)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 76 hours gap between events (customs_hold and lcl_deconsolidation)"
-      },
-      {
-        "type": "late_arrival",
-        "message": "Container arrived 600 minutes after expected time"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 314 hours gap between events (port_departure and port_arrival)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 30 hours gap between events (port_arrival and customs_clearance)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 46 hours gap between events (customs_clearance and lcl_delivery)"
-      },
-      {
-        "type": "out_of_sequence",
-        "message": "Out of sequence: lcl_deconsolidation follows customs_hold unexpectedly"
-      },
-      {
-        "type": "out_of_sequence",
-        "message": "Out of sequence: lcl_consolidation follows lcl_deconsolidation unexpectedly"
-      },
-      {
-        "type": "out_of_sequence",
-        "message": "Out of sequence: lcl_delivery follows customs_clearance unexpectedly"
-      }
-    ],
-    "journey_progress": 40
+    ]
   },
   {
     "container_id": "CONT_LCL_IMP_T006",
-    "current_status": "delivered",
+    "current_status": "Delivered",
     "current_location": "Mumbai CFS",
     "last_event_time": "2024-12-07T16:00:00Z",
+    "total_events": 12,
+    "journey_progress": 40,
+    "anomalies": [
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 26 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 122 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 26 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 50 hours from previous event"
+      },
+      {
+        "type": "late_arrival",
+        "message": "Arrived 840 minutes late"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 146 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 26 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 52 hours from previous event"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'road_checkpoint' follows 'lcl_pickup'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'lcl_consolidation' follows 'road_checkpoint'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'port_departure' follows 'lcl_consolidation'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'lcl_deconsolidation' follows 'port_arrival'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'lcl_consolidation' follows 'lcl_deconsolidation'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'port_departure' follows 'lcl_consolidation'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'lcl_delivery' follows 'customs_clearance'"
+      }
+    ],
     "timeline": [
       {
         "event_type": "lcl_pickup",
@@ -1439,60 +1644,37 @@
         "timestamp": "2024-12-07T16:00:00Z",
         "location": "Mumbai CFS"
       }
-    ],
-    "anomalies": [
-      {
-        "type": "unusual_gap",
-        "message": "More than 26 hours gap between events (road_checkpoint and lcl_consolidation)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 122 hours gap between events (port_departure and port_arrival)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 26 hours gap between events (port_arrival and lcl_deconsolidation)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 50 hours gap between events (lcl_deconsolidation and lcl_consolidation)"
-      },
-      {
-        "type": "late_arrival",
-        "message": "Container arrived 840 minutes after expected time"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 146 hours gap between events (port_departure and port_arrival)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 26 hours gap between events (customs_inspection and customs_clearance)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 52 hours gap between events (customs_clearance and lcl_delivery)"
-      },
-      {
-        "type": "out_of_sequence",
-        "message": "Out of sequence: lcl_deconsolidation follows port_arrival unexpectedly"
-      },
-      {
-        "type": "out_of_sequence",
-        "message": "Out of sequence: lcl_consolidation follows lcl_deconsolidation unexpectedly"
-      },
-      {
-        "type": "out_of_sequence",
-        "message": "Out of sequence: lcl_delivery follows customs_clearance unexpectedly"
-      }
-    ],
-    "journey_progress": 40
+    ]
   },
   {
     "container_id": "CONT_CHINA_AFRICA_FCL",
-    "current_status": "at_port",
+    "current_status": "Arrived at Destination",
     "current_location": "Port of Cape Town",
     "last_event_time": "2024-12-20T10:00:00Z",
+    "total_events": 5,
+    "journey_progress": 80,
+    "anomalies": [
+      {
+        "type": "late_arrival",
+        "message": "Arrived 240 minutes late"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 32 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 422 hours from previous event"
+      },
+      {
+        "type": "late_arrival",
+        "message": "Arrived 600 minutes late"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 370 hours from previous event"
+      }
+    ],
     "timeline": [
       {
         "event_type": "port_arrival",
@@ -1521,36 +1703,49 @@
         "location": "Port of Cape Town",
         "delay_minutes": 600
       }
-    ],
-    "anomalies": [
-      {
-        "type": "late_arrival",
-        "message": "Container arrived 240 minutes after expected time"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 32 hours gap between events (port_arrival and customs_clearance)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 422 hours gap between events (port_departure and in_transit)"
-      },
-      {
-        "type": "late_arrival",
-        "message": "Container arrived 600 minutes after expected time"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 370 hours gap between events (in_transit and port_arrival)"
-      }
-    ],
-    "journey_progress": 100
+    ]
   },
   {
     "container_id": "CONT_CHINA_AFRICA_LCL",
-    "current_status": "delivered",
+    "current_status": "Delivered",
     "current_location": "Mombasa CFS",
     "last_event_time": "2024-12-15T14:00:00Z",
+    "total_events": 5,
+    "journey_progress": 20,
+    "anomalies": [
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 28 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 26 hours from previous event"
+      },
+      {
+        "type": "late_arrival",
+        "message": "Arrived 600 minutes late"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 620 hours from previous event"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "Gap of 52 hours from previous event"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'lcl_consolidation' follows 'lcl_pickup'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'port_departure' follows 'lcl_consolidation'"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Unexpected sequence: 'lcl_delivery' follows 'port_arrival'"
+      }
+    ],
     "timeline": [
       {
         "event_type": "lcl_pickup",
@@ -1578,33 +1773,6 @@
         "timestamp": "2024-12-15T14:00:00Z",
         "location": "Mombasa CFS"
       }
-    ],
-    "anomalies": [
-      {
-        "type": "unusual_gap",
-        "message": "More than 28 hours gap between events (lcl_pickup and lcl_consolidation)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 26 hours gap between events (lcl_consolidation and port_departure)"
-      },
-      {
-        "type": "late_arrival",
-        "message": "Container arrived 600 minutes after expected time"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 620 hours gap between events (port_departure and port_arrival)"
-      },
-      {
-        "type": "unusual_gap",
-        "message": "More than 52 hours gap between events (port_arrival and lcl_delivery)"
-      },
-      {
-        "type": "out_of_sequence",
-        "message": "Out of sequence: lcl_delivery follows port_arrival unexpectedly"
-      }
-    ],
-    "journey_progress": 20
+    ]
   }
 ]

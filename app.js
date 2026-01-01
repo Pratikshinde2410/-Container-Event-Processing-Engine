@@ -1,24 +1,16 @@
+// app.js
 const express = require('express');
-const app = express();
-const PORT = process.env.PORT || 3000;
+const containersRoutes = require('./routes/containers');
 
-// Middleware
-app.use(express.json());
+const app = express();
+
+app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true }));
 
-// Routes
-const routes = require('./routes/index');
-app.use('/api', routes);
+app.get('/', (req, res) => {
+  res.json({ message: 'WeTRACK Container Event Processing Engine - API Ready' });
+});
 
-const containersRoutes = require('./routes/containers');
 app.use('/api/containers', containersRoutes);
 
-app.get('/', (req, res) => {
-  res.json({ message: 'Welcome to Express App - Container Event Processing Engine' });
-});
-
-// Start server
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
-});
-
+module.exports = app;
