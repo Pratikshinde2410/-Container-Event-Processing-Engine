@@ -1,0 +1,1610 @@
+[
+  {
+    "container_id": "CONT_INDIA_FCL_001",
+    "current_status": "at_port",
+    "current_location": "Port of Rotterdam",
+    "last_event_time": "2024-12-10T06:00:00Z",
+    "timeline": [
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-11-15T02:00:00Z",
+        "location": "Port of Mumbai",
+        "delay_minutes": 120
+      },
+      {
+        "event_type": "customs_clearance",
+        "timestamp": "2024-11-17T12:00:00Z",
+        "location": "Customs Port of Mumbai"
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-18T08:00:00Z",
+        "location": "Port of Mumbai"
+      },
+      {
+        "event_type": "in_transit",
+        "timestamp": "2024-11-25T00:00:00Z",
+        "location": "Arabian Sea"
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-12-10T06:00:00Z",
+        "location": "Port of Rotterdam",
+        "delay_minutes": 1800
+      }
+    ],
+    "anomalies": [
+      {
+        "type": "unusual_gap",
+        "message": "More than 58 hours gap between events (port_arrival and customs_clearance)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 160 hours gap between events (port_departure and in_transit)"
+      },
+      {
+        "type": "late_arrival",
+        "message": "Container arrived 1800 minutes after expected time"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 366 hours gap between events (in_transit and port_arrival)"
+      }
+    ],
+    "journey_progress": 100
+  },
+  {
+    "container_id": "CONT_INDIA_FCL_002",
+    "current_status": "at_port",
+    "current_location": "Port of Singapore",
+    "last_event_time": "2024-11-25T10:00:00Z",
+    "timeline": [
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-11-16T04:00:00Z",
+        "location": "Port of Chennai",
+        "delay_minutes": 240
+      },
+      {
+        "event_type": "customs_inspection",
+        "timestamp": "2024-11-17T10:00:00Z",
+        "location": "Customs Port of Chennai"
+      },
+      {
+        "event_type": "customs_clearance",
+        "timestamp": "2024-11-18T14:00:00Z",
+        "location": "Customs Port of Chennai"
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-19T08:00:00Z",
+        "location": "Port of Chennai"
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-11-25T10:00:00Z",
+        "location": "Port of Singapore",
+        "delay_minutes": 600
+      }
+    ],
+    "anomalies": [
+      {
+        "type": "late_arrival",
+        "message": "Container arrived 240 minutes after expected time"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 30 hours gap between events (port_arrival and customs_inspection)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 28 hours gap between events (customs_inspection and customs_clearance)"
+      },
+      {
+        "type": "late_arrival",
+        "message": "Container arrived 600 minutes after expected time"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 146 hours gap between events (port_departure and port_arrival)"
+      }
+    ],
+    "journey_progress": 60
+  },
+  {
+    "container_id": "CONT_INDIA_FCL_003",
+    "current_status": "at_port",
+    "current_location": "Port of Hong Kong",
+    "last_event_time": "2024-11-27T04:00:00Z",
+    "timeline": [
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-11-15T06:00:00Z",
+        "location": "Port of Jawaharlal Nehru",
+        "delay_minutes": 360
+      },
+      {
+        "event_type": "documentation_hold",
+        "timestamp": "2024-11-16T08:00:00Z",
+        "location": "Port of Jawaharlal Nehru"
+      },
+      {
+        "event_type": "customs_clearance",
+        "timestamp": "2024-11-17T16:00:00Z",
+        "location": "Customs Port of Jawaharlal Nehru"
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-18T10:00:00Z",
+        "location": "Port of Jawaharlal Nehru"
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-11-27T04:00:00Z",
+        "location": "Port of Hong Kong",
+        "delay_minutes": 1680
+      }
+    ],
+    "anomalies": [
+      {
+        "type": "late_arrival",
+        "message": "Container arrived 360 minutes after expected time"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 26 hours gap between events (port_arrival and documentation_hold)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 32 hours gap between events (documentation_hold and customs_clearance)"
+      },
+      {
+        "type": "late_arrival",
+        "message": "Container arrived 1680 minutes after expected time"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 210 hours gap between events (port_departure and port_arrival)"
+      }
+    ],
+    "journey_progress": 60
+  },
+  {
+    "container_id": "CONT_INDIA_FCL_004",
+    "current_status": "at_port",
+    "current_location": "Port of Jebel Ali",
+    "last_event_time": "2024-11-23T16:00:00Z",
+    "timeline": [
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-11-17T12:00:00Z",
+        "location": "Port of Cochin",
+        "delay_minutes": 240
+      },
+      {
+        "event_type": "customs_clearance",
+        "timestamp": "2024-11-19T14:00:00Z",
+        "location": "Customs Port of Cochin"
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-20T06:00:00Z",
+        "location": "Port of Cochin"
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-11-23T16:00:00Z",
+        "location": "Port of Jebel Ali",
+        "delay_minutes": 960
+      }
+    ],
+    "anomalies": [
+      {
+        "type": "late_arrival",
+        "message": "Container arrived 240 minutes after expected time"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 50 hours gap between events (port_arrival and customs_clearance)"
+      },
+      {
+        "type": "late_arrival",
+        "message": "Container arrived 960 minutes after expected time"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 82 hours gap between events (port_departure and port_arrival)"
+      }
+    ],
+    "journey_progress": 60
+  },
+  {
+    "container_id": "CONT_TRANS_IMP_001",
+    "current_status": "at_port",
+    "current_location": "Port of Mumbai",
+    "last_event_time": "2024-12-11T08:00:00Z",
+    "timeline": [
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-11-16T10:00:00Z",
+        "location": "Port of Los Angeles",
+        "delay_minutes": 120
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-18T12:00:00Z",
+        "location": "Port of Los Angeles"
+      },
+      {
+        "event_type": "transshipment_arrival",
+        "timestamp": "2024-12-03T04:00:00Z",
+        "location": "Port of Singapore"
+      },
+      {
+        "event_type": "transshipment_loading",
+        "timestamp": "2024-12-04T08:00:00Z",
+        "location": "Port of Singapore"
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-12-05T06:00:00Z",
+        "location": "Port of Singapore"
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-12-11T08:00:00Z",
+        "location": "Port of Mumbai",
+        "delay_minutes": 480
+      }
+    ],
+    "anomalies": [
+      {
+        "type": "unusual_gap",
+        "message": "More than 50 hours gap between events (port_arrival and port_departure)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 352 hours gap between events (port_departure and transshipment_arrival)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 28 hours gap between events (transshipment_arrival and transshipment_loading)"
+      },
+      {
+        "type": "late_arrival",
+        "message": "Container arrived 480 minutes after expected time"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 146 hours gap between events (port_departure and port_arrival)"
+      }
+    ],
+    "journey_progress": 20
+  },
+  {
+    "container_id": "CONT_TRANS_IMP_002",
+    "current_status": "at_port",
+    "current_location": "Port of Chennai",
+    "last_event_time": "2024-12-07T10:00:00Z",
+    "timeline": [
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-11-15T08:00:00Z",
+        "location": "Port of Rotterdam",
+        "delay_minutes": 120
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-17T10:00:00Z",
+        "location": "Port of Rotterdam"
+      },
+      {
+        "event_type": "transshipment_arrival",
+        "timestamp": "2024-11-25T06:00:00Z",
+        "location": "Port Said"
+      },
+      {
+        "event_type": "transshipment_loading",
+        "timestamp": "2024-11-26T12:00:00Z",
+        "location": "Port Said"
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-27T08:00:00Z",
+        "location": "Port Said"
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-12-07T10:00:00Z",
+        "location": "Port of Chennai",
+        "delay_minutes": 600
+      }
+    ],
+    "anomalies": [
+      {
+        "type": "unusual_gap",
+        "message": "More than 50 hours gap between events (port_arrival and port_departure)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 188 hours gap between events (port_departure and transshipment_arrival)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 30 hours gap between events (transshipment_arrival and transshipment_loading)"
+      },
+      {
+        "type": "late_arrival",
+        "message": "Container arrived 600 minutes after expected time"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 242 hours gap between events (port_departure and port_arrival)"
+      }
+    ],
+    "journey_progress": 20
+  },
+  {
+    "container_id": "CONT_TRANS_IMP_003",
+    "current_status": "at_port",
+    "current_location": "Port of Cochin",
+    "last_event_time": "2024-12-03T12:00:00Z",
+    "timeline": [
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-11-17T14:00:00Z",
+        "location": "Port of Melbourne",
+        "delay_minutes": 120
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-19T16:00:00Z",
+        "location": "Port of Melbourne"
+      },
+      {
+        "event_type": "transshipment_arrival",
+        "timestamp": "2024-11-27T10:00:00Z",
+        "location": "Port of Bangkok"
+      },
+      {
+        "event_type": "transshipment_loading",
+        "timestamp": "2024-11-28T14:00:00Z",
+        "location": "Port of Bangkok"
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-29T10:00:00Z",
+        "location": "Port of Bangkok"
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-12-03T12:00:00Z",
+        "location": "Port of Cochin",
+        "delay_minutes": 720
+      }
+    ],
+    "anomalies": [
+      {
+        "type": "unusual_gap",
+        "message": "More than 50 hours gap between events (port_arrival and port_departure)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 186 hours gap between events (port_departure and transshipment_arrival)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 28 hours gap between events (transshipment_arrival and transshipment_loading)"
+      },
+      {
+        "type": "late_arrival",
+        "message": "Container arrived 720 minutes after expected time"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 98 hours gap between events (port_departure and port_arrival)"
+      }
+    ],
+    "journey_progress": 20
+  },
+  {
+    "container_id": "CONT_LCL_EXP_T001",
+    "current_status": "at_port",
+    "current_location": "Port of Hamburg",
+    "last_event_time": "2024-12-17T12:00:00Z",
+    "timeline": [
+      {
+        "event_type": "lcl_pickup",
+        "timestamp": "2024-11-15T08:00:00Z",
+        "location": "Mumbai CFS"
+      },
+      {
+        "event_type": "lcl_consolidation",
+        "timestamp": "2024-11-17T10:00:00Z",
+        "location": "Mumbai CFS"
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-18T12:00:00Z",
+        "location": "Port of Mumbai"
+      },
+      {
+        "event_type": "transshipment_arrival",
+        "timestamp": "2024-11-29T08:00:00Z",
+        "location": "Port of Singapore"
+      },
+      {
+        "event_type": "lcl_deconsolidation",
+        "timestamp": "2024-12-01T10:00:00Z",
+        "location": "Singapore CFS"
+      },
+      {
+        "event_type": "lcl_consolidation",
+        "timestamp": "2024-12-02T14:00:00Z",
+        "location": "Singapore CFS"
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-12-03T08:00:00Z",
+        "location": "Port of Singapore"
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-12-17T12:00:00Z",
+        "location": "Port of Hamburg",
+        "delay_minutes": 720
+      }
+    ],
+    "anomalies": [
+      {
+        "type": "unusual_gap",
+        "message": "More than 50 hours gap between events (lcl_pickup and lcl_consolidation)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 26 hours gap between events (lcl_consolidation and port_departure)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 260 hours gap between events (port_departure and transshipment_arrival)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 50 hours gap between events (transshipment_arrival and lcl_deconsolidation)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 28 hours gap between events (lcl_deconsolidation and lcl_consolidation)"
+      },
+      {
+        "type": "late_arrival",
+        "message": "Container arrived 720 minutes after expected time"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 340 hours gap between events (port_departure and port_arrival)"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Out of sequence: lcl_deconsolidation follows transshipment_arrival unexpectedly"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Out of sequence: lcl_consolidation follows lcl_deconsolidation unexpectedly"
+      }
+    ],
+    "journey_progress": 20
+  },
+  {
+    "container_id": "CONT_LCL_EXP_T002",
+    "current_status": "at_port",
+    "current_location": "Port of London",
+    "last_event_time": "2024-12-13T14:00:00Z",
+    "timeline": [
+      {
+        "event_type": "lcl_pickup",
+        "timestamp": "2024-11-16T06:00:00Z",
+        "location": "Bangalore CFS"
+      },
+      {
+        "event_type": "road_checkpoint",
+        "timestamp": "2024-11-16T14:00:00Z",
+        "location": "Highway checkpoint, Karnataka"
+      },
+      {
+        "event_type": "lcl_consolidation",
+        "timestamp": "2024-11-17T10:00:00Z",
+        "location": "Bangalore CFS"
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-18T08:00:00Z",
+        "location": "Port of Chennai"
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-11-27T10:00:00Z",
+        "location": "Port of Port Said"
+      },
+      {
+        "event_type": "lcl_deconsolidation",
+        "timestamp": "2024-11-28T12:00:00Z",
+        "location": "Port Said CFS"
+      },
+      {
+        "event_type": "lcl_consolidation",
+        "timestamp": "2024-11-29T14:00:00Z",
+        "location": "Port Said CFS"
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-30T10:00:00Z",
+        "location": "Port of Port Said"
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-12-13T14:00:00Z",
+        "location": "Port of London",
+        "delay_minutes": 840
+      }
+    ],
+    "anomalies": [
+      {
+        "type": "unusual_gap",
+        "message": "More than 218 hours gap between events (port_departure and port_arrival)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 26 hours gap between events (port_arrival and lcl_deconsolidation)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 26 hours gap between events (lcl_deconsolidation and lcl_consolidation)"
+      },
+      {
+        "type": "late_arrival",
+        "message": "Container arrived 840 minutes after expected time"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 316 hours gap between events (port_departure and port_arrival)"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Out of sequence: lcl_deconsolidation follows port_arrival unexpectedly"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Out of sequence: lcl_consolidation follows lcl_deconsolidation unexpectedly"
+      }
+    ],
+    "journey_progress": 20
+  },
+  {
+    "container_id": "CONT_LCL_EXP_T003",
+    "current_status": "at_port",
+    "current_location": "Port of Vancouver",
+    "last_event_time": "2024-12-19T10:00:00Z",
+    "timeline": [
+      {
+        "event_type": "lcl_pickup",
+        "timestamp": "2024-11-15T10:00:00Z",
+        "location": "Chennai CFS"
+      },
+      {
+        "event_type": "lcl_consolidation",
+        "timestamp": "2024-11-17T12:00:00Z",
+        "location": "Chennai CFS"
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-18T06:00:00Z",
+        "location": "Port of Chennai"
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-11-27T08:00:00Z",
+        "location": "Port of Singapore"
+      },
+      {
+        "event_type": "lcl_deconsolidation",
+        "timestamp": "2024-11-28T10:00:00Z",
+        "location": "Singapore CFS"
+      },
+      {
+        "event_type": "lcl_consolidation",
+        "timestamp": "2024-11-29T16:00:00Z",
+        "location": "Singapore CFS"
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-30T12:00:00Z",
+        "location": "Port of Singapore"
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-12-19T10:00:00Z",
+        "location": "Port of Vancouver",
+        "delay_minutes": 600
+      }
+    ],
+    "anomalies": [
+      {
+        "type": "unusual_gap",
+        "message": "More than 50 hours gap between events (lcl_pickup and lcl_consolidation)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 218 hours gap between events (port_departure and port_arrival)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 26 hours gap between events (port_arrival and lcl_deconsolidation)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 30 hours gap between events (lcl_deconsolidation and lcl_consolidation)"
+      },
+      {
+        "type": "late_arrival",
+        "message": "Container arrived 600 minutes after expected time"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 454 hours gap between events (port_departure and port_arrival)"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Out of sequence: lcl_deconsolidation follows port_arrival unexpectedly"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Out of sequence: lcl_consolidation follows lcl_deconsolidation unexpectedly"
+      }
+    ],
+    "journey_progress": 20
+  },
+  {
+    "container_id": "CONT_LCL_EXP_T004",
+    "current_status": "at_port",
+    "current_location": "Port of Jeddah",
+    "last_event_time": "2024-11-29T14:00:00Z",
+    "timeline": [
+      {
+        "event_type": "lcl_pickup",
+        "timestamp": "2024-11-16T08:00:00Z",
+        "location": "Delhi CFS"
+      },
+      {
+        "event_type": "lcl_consolidation",
+        "timestamp": "2024-11-17T14:00:00Z",
+        "location": "Delhi CFS"
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-18T10:00:00Z",
+        "location": "Port of Jawaharlal Nehru"
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-11-24T12:00:00Z",
+        "location": "Port of Jebel Ali"
+      },
+      {
+        "event_type": "lcl_deconsolidation",
+        "timestamp": "2024-11-25T10:00:00Z",
+        "location": "Jebel Ali CFS"
+      },
+      {
+        "event_type": "lcl_consolidation",
+        "timestamp": "2024-11-26T12:00:00Z",
+        "location": "Jebel Ali CFS"
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-27T08:00:00Z",
+        "location": "Port of Jebel Ali"
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-11-29T14:00:00Z",
+        "location": "Port of Jeddah",
+        "delay_minutes": 840
+      }
+    ],
+    "anomalies": [
+      {
+        "type": "unusual_gap",
+        "message": "More than 30 hours gap between events (lcl_pickup and lcl_consolidation)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 146 hours gap between events (port_departure and port_arrival)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 26 hours gap between events (lcl_deconsolidation and lcl_consolidation)"
+      },
+      {
+        "type": "late_arrival",
+        "message": "Container arrived 840 minutes after expected time"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 54 hours gap between events (port_departure and port_arrival)"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Out of sequence: lcl_deconsolidation follows port_arrival unexpectedly"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Out of sequence: lcl_consolidation follows lcl_deconsolidation unexpectedly"
+      }
+    ],
+    "journey_progress": 20
+  },
+  {
+    "container_id": "CONT_LCL_EXP_T005",
+    "current_status": "at_port",
+    "current_location": "Port of Sydney",
+    "last_event_time": "2024-12-13T16:00:00Z",
+    "timeline": [
+      {
+        "event_type": "lcl_pickup",
+        "timestamp": "2024-11-15T12:00:00Z",
+        "location": "Pune CFS"
+      },
+      {
+        "event_type": "lcl_consolidation",
+        "timestamp": "2024-11-17T16:00:00Z",
+        "location": "Pune CFS"
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-18T14:00:00Z",
+        "location": "Port of Mumbai"
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-11-29T10:00:00Z",
+        "location": "Port of Singapore"
+      },
+      {
+        "event_type": "lcl_deconsolidation",
+        "timestamp": "2024-11-30T12:00:00Z",
+        "location": "Singapore CFS"
+      },
+      {
+        "event_type": "lcl_consolidation",
+        "timestamp": "2024-12-01T14:00:00Z",
+        "location": "Singapore CFS"
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-12-02T10:00:00Z",
+        "location": "Port of Singapore"
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-12-13T16:00:00Z",
+        "location": "Port of Sydney",
+        "delay_minutes": 960
+      }
+    ],
+    "anomalies": [
+      {
+        "type": "unusual_gap",
+        "message": "More than 52 hours gap between events (lcl_pickup and lcl_consolidation)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 260 hours gap between events (port_departure and port_arrival)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 26 hours gap between events (port_arrival and lcl_deconsolidation)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 26 hours gap between events (lcl_deconsolidation and lcl_consolidation)"
+      },
+      {
+        "type": "late_arrival",
+        "message": "Container arrived 960 minutes after expected time"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 270 hours gap between events (port_departure and port_arrival)"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Out of sequence: lcl_deconsolidation follows port_arrival unexpectedly"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Out of sequence: lcl_consolidation follows lcl_deconsolidation unexpectedly"
+      }
+    ],
+    "journey_progress": 20
+  },
+  {
+    "container_id": "CONT_LCL_IMP_T001",
+    "current_status": "delivered",
+    "current_location": "Mumbai CFS",
+    "last_event_time": "2024-12-16T16:00:00Z",
+    "timeline": [
+      {
+        "event_type": "lcl_pickup",
+        "timestamp": "2024-11-15T08:00:00Z",
+        "location": "Houston CFS"
+      },
+      {
+        "event_type": "lcl_consolidation",
+        "timestamp": "2024-11-16T10:00:00Z",
+        "location": "Houston CFS"
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-17T12:00:00Z",
+        "location": "Port of Houston"
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-12-03T08:00:00Z",
+        "location": "Port of Singapore"
+      },
+      {
+        "event_type": "lcl_deconsolidation",
+        "timestamp": "2024-12-04T10:00:00Z",
+        "location": "Singapore CFS"
+      },
+      {
+        "event_type": "lcl_consolidation",
+        "timestamp": "2024-12-05T14:00:00Z",
+        "location": "Singapore CFS"
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-12-06T10:00:00Z",
+        "location": "Port of Singapore"
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-12-12T12:00:00Z",
+        "location": "Port of Mumbai",
+        "delay_minutes": 720
+      },
+      {
+        "event_type": "customs_hold",
+        "timestamp": "2024-12-13T10:00:00Z",
+        "location": "Customs Port of Mumbai"
+      },
+      {
+        "event_type": "customs_clearance",
+        "timestamp": "2024-12-15T14:00:00Z",
+        "location": "Customs Port of Mumbai"
+      },
+      {
+        "event_type": "lcl_delivery",
+        "timestamp": "2024-12-16T16:00:00Z",
+        "location": "Mumbai CFS"
+      }
+    ],
+    "anomalies": [
+      {
+        "type": "unusual_gap",
+        "message": "More than 26 hours gap between events (lcl_pickup and lcl_consolidation)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 26 hours gap between events (lcl_consolidation and port_departure)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 380 hours gap between events (port_departure and port_arrival)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 26 hours gap between events (port_arrival and lcl_deconsolidation)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 28 hours gap between events (lcl_deconsolidation and lcl_consolidation)"
+      },
+      {
+        "type": "late_arrival",
+        "message": "Container arrived 720 minutes after expected time"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 146 hours gap between events (port_departure and port_arrival)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 52 hours gap between events (customs_hold and customs_clearance)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 26 hours gap between events (customs_clearance and lcl_delivery)"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Out of sequence: lcl_deconsolidation follows port_arrival unexpectedly"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Out of sequence: lcl_consolidation follows lcl_deconsolidation unexpectedly"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Out of sequence: lcl_delivery follows customs_clearance unexpectedly"
+      }
+    ],
+    "journey_progress": 40
+  },
+  {
+    "container_id": "CONT_LCL_IMP_T002",
+    "current_status": "delivered",
+    "current_location": "Chennai CFS",
+    "last_event_time": "2024-12-13T14:00:00Z",
+    "timeline": [
+      {
+        "event_type": "lcl_pickup",
+        "timestamp": "2024-11-15T06:00:00Z",
+        "location": "Hamburg CFS"
+      },
+      {
+        "event_type": "lcl_consolidation",
+        "timestamp": "2024-11-16T12:00:00Z",
+        "location": "Hamburg CFS"
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-17T14:00:00Z",
+        "location": "Port of Hamburg"
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-11-26T10:00:00Z",
+        "location": "Port Said"
+      },
+      {
+        "event_type": "lcl_deconsolidation",
+        "timestamp": "2024-11-28T12:00:00Z",
+        "location": "Port Said CFS"
+      },
+      {
+        "event_type": "lcl_consolidation",
+        "timestamp": "2024-11-29T16:00:00Z",
+        "location": "Port Said CFS"
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-12-01T08:00:00Z",
+        "location": "Port Said"
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-12-11T10:00:00Z",
+        "location": "Port of Chennai",
+        "delay_minutes": 2040
+      },
+      {
+        "event_type": "lcl_delivery",
+        "timestamp": "2024-12-13T14:00:00Z",
+        "location": "Chennai CFS"
+      }
+    ],
+    "anomalies": [
+      {
+        "type": "unusual_gap",
+        "message": "More than 30 hours gap between events (lcl_pickup and lcl_consolidation)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 26 hours gap between events (lcl_consolidation and port_departure)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 212 hours gap between events (port_departure and port_arrival)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 50 hours gap between events (port_arrival and lcl_deconsolidation)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 28 hours gap between events (lcl_deconsolidation and lcl_consolidation)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 40 hours gap between events (lcl_consolidation and port_departure)"
+      },
+      {
+        "type": "late_arrival",
+        "message": "Container arrived 2040 minutes after expected time"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 242 hours gap between events (port_departure and port_arrival)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 52 hours gap between events (port_arrival and lcl_delivery)"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Out of sequence: lcl_deconsolidation follows port_arrival unexpectedly"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Out of sequence: lcl_consolidation follows lcl_deconsolidation unexpectedly"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Out of sequence: lcl_delivery follows port_arrival unexpectedly"
+      }
+    ],
+    "journey_progress": 20
+  },
+  {
+    "container_id": "CONT_LCL_IMP_T003",
+    "current_status": "delivered",
+    "current_location": "Cochin CFS",
+    "last_event_time": "2024-12-10T12:00:00Z",
+    "timeline": [
+      {
+        "event_type": "lcl_pickup",
+        "timestamp": "2024-11-16T08:00:00Z",
+        "location": "Tokyo CFS"
+      },
+      {
+        "event_type": "lcl_consolidation",
+        "timestamp": "2024-11-17T10:00:00Z",
+        "location": "Tokyo CFS"
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-18T06:00:00Z",
+        "location": "Port of Tokyo"
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-11-23T12:00:00Z",
+        "location": "Port of Hong Kong"
+      },
+      {
+        "event_type": "documentation_hold",
+        "timestamp": "2024-11-24T10:00:00Z",
+        "location": "Hong Kong CFS"
+      },
+      {
+        "event_type": "lcl_deconsolidation",
+        "timestamp": "2024-11-26T14:00:00Z",
+        "location": "Hong Kong CFS"
+      },
+      {
+        "event_type": "lcl_consolidation",
+        "timestamp": "2024-11-27T16:00:00Z",
+        "location": "Hong Kong CFS"
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-28T12:00:00Z",
+        "location": "Port of Hong Kong"
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-12-05T10:00:00Z",
+        "location": "Port of Cochin",
+        "delay_minutes": 600
+      },
+      {
+        "event_type": "customs_hold",
+        "timestamp": "2024-12-06T08:00:00Z",
+        "location": "Customs Port of Cochin"
+      },
+      {
+        "event_type": "lcl_delivery",
+        "timestamp": "2024-12-10T12:00:00Z",
+        "location": "Cochin CFS"
+      }
+    ],
+    "anomalies": [
+      {
+        "type": "unusual_gap",
+        "message": "More than 26 hours gap between events (lcl_pickup and lcl_consolidation)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 126 hours gap between events (port_departure and port_arrival)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 52 hours gap between events (documentation_hold and lcl_deconsolidation)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 26 hours gap between events (lcl_deconsolidation and lcl_consolidation)"
+      },
+      {
+        "type": "late_arrival",
+        "message": "Container arrived 600 minutes after expected time"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 166 hours gap between events (port_departure and port_arrival)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 100 hours gap between events (customs_hold and lcl_delivery)"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Out of sequence: lcl_deconsolidation follows documentation_hold unexpectedly"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Out of sequence: lcl_consolidation follows lcl_deconsolidation unexpectedly"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Out of sequence: lcl_delivery follows customs_hold unexpectedly"
+      }
+    ],
+    "journey_progress": 20
+  },
+  {
+    "container_id": "CONT_LCL_IMP_T004",
+    "current_status": "delivered",
+    "current_location": "Bangalore CFS",
+    "last_event_time": "2024-12-09T16:00:00Z",
+    "timeline": [
+      {
+        "event_type": "lcl_pickup",
+        "timestamp": "2024-11-15T10:00:00Z",
+        "location": "Busan CFS"
+      },
+      {
+        "event_type": "lcl_consolidation",
+        "timestamp": "2024-11-17T12:00:00Z",
+        "location": "Busan CFS"
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-18T08:00:00Z",
+        "location": "Port of Busan"
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-11-25T14:00:00Z",
+        "location": "Port of Singapore"
+      },
+      {
+        "event_type": "lcl_damage_inspection",
+        "timestamp": "2024-11-26T10:00:00Z",
+        "location": "Singapore CFS"
+      },
+      {
+        "event_type": "lcl_deconsolidation",
+        "timestamp": "2024-11-27T16:00:00Z",
+        "location": "Singapore CFS"
+      },
+      {
+        "event_type": "lcl_consolidation",
+        "timestamp": "2024-11-28T14:00:00Z",
+        "location": "Singapore CFS"
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-29T10:00:00Z",
+        "location": "Port of Singapore"
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-12-07T12:00:00Z",
+        "location": "Port of Cochin",
+        "delay_minutes": 720
+      },
+      {
+        "event_type": "lcl_delivery",
+        "timestamp": "2024-12-09T16:00:00Z",
+        "location": "Bangalore CFS"
+      }
+    ],
+    "anomalies": [
+      {
+        "type": "unusual_gap",
+        "message": "More than 50 hours gap between events (lcl_pickup and lcl_consolidation)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 174 hours gap between events (port_departure and port_arrival)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 30 hours gap between events (lcl_damage_inspection and lcl_deconsolidation)"
+      },
+      {
+        "type": "late_arrival",
+        "message": "Container arrived 720 minutes after expected time"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 194 hours gap between events (port_departure and port_arrival)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 52 hours gap between events (port_arrival and lcl_delivery)"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Out of sequence: lcl_damage_inspection follows port_arrival unexpectedly"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Out of sequence: lcl_deconsolidation follows lcl_damage_inspection unexpectedly"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Out of sequence: lcl_consolidation follows lcl_deconsolidation unexpectedly"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Out of sequence: lcl_delivery follows port_arrival unexpectedly"
+      }
+    ],
+    "journey_progress": 20
+  },
+  {
+    "container_id": "CONT_LCL_IMP_T005",
+    "current_status": "delivered",
+    "current_location": "Delhi CFS",
+    "last_event_time": "2024-12-12T14:00:00Z",
+    "timeline": [
+      {
+        "event_type": "lcl_pickup",
+        "timestamp": "2024-11-15T14:00:00Z",
+        "location": "Kuala Lumpur CFS"
+      },
+      {
+        "event_type": "lcl_consolidation",
+        "timestamp": "2024-11-17T10:00:00Z",
+        "location": "Kuala Lumpur CFS"
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-18T12:00:00Z",
+        "location": "Port of Kuala Lumpur"
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-11-20T08:00:00Z",
+        "location": "Port of Singapore"
+      },
+      {
+        "event_type": "customs_hold",
+        "timestamp": "2024-11-21T10:00:00Z",
+        "location": "Singapore Customs"
+      },
+      {
+        "event_type": "lcl_deconsolidation",
+        "timestamp": "2024-11-24T14:00:00Z",
+        "location": "Singapore CFS"
+      },
+      {
+        "event_type": "lcl_consolidation",
+        "timestamp": "2024-11-25T12:00:00Z",
+        "location": "Singapore CFS"
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-26T08:00:00Z",
+        "location": "Port of Singapore"
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-12-09T10:00:00Z",
+        "location": "Port of Jawaharlal Nehru",
+        "delay_minutes": 600
+      },
+      {
+        "event_type": "customs_clearance",
+        "timestamp": "2024-12-10T16:00:00Z",
+        "location": "Customs Port of Jawaharlal Nehru"
+      },
+      {
+        "event_type": "lcl_delivery",
+        "timestamp": "2024-12-12T14:00:00Z",
+        "location": "Delhi CFS"
+      }
+    ],
+    "anomalies": [
+      {
+        "type": "unusual_gap",
+        "message": "More than 44 hours gap between events (lcl_pickup and lcl_consolidation)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 26 hours gap between events (lcl_consolidation and port_departure)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 44 hours gap between events (port_departure and port_arrival)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 26 hours gap between events (port_arrival and customs_hold)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 76 hours gap between events (customs_hold and lcl_deconsolidation)"
+      },
+      {
+        "type": "late_arrival",
+        "message": "Container arrived 600 minutes after expected time"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 314 hours gap between events (port_departure and port_arrival)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 30 hours gap between events (port_arrival and customs_clearance)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 46 hours gap between events (customs_clearance and lcl_delivery)"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Out of sequence: lcl_deconsolidation follows customs_hold unexpectedly"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Out of sequence: lcl_consolidation follows lcl_deconsolidation unexpectedly"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Out of sequence: lcl_delivery follows customs_clearance unexpectedly"
+      }
+    ],
+    "journey_progress": 40
+  },
+  {
+    "container_id": "CONT_LCL_IMP_T006",
+    "current_status": "delivered",
+    "current_location": "Mumbai CFS",
+    "last_event_time": "2024-12-07T16:00:00Z",
+    "timeline": [
+      {
+        "event_type": "lcl_pickup",
+        "timestamp": "2024-11-16T06:00:00Z",
+        "location": "Bangkok CFS"
+      },
+      {
+        "event_type": "road_checkpoint",
+        "timestamp": "2024-11-16T12:00:00Z",
+        "location": "Thailand border checkpoint"
+      },
+      {
+        "event_type": "lcl_consolidation",
+        "timestamp": "2024-11-17T14:00:00Z",
+        "location": "Bangkok CFS"
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-18T10:00:00Z",
+        "location": "Port of Bangkok"
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-11-23T12:00:00Z",
+        "location": "Port of Singapore"
+      },
+      {
+        "event_type": "lcl_deconsolidation",
+        "timestamp": "2024-11-24T14:00:00Z",
+        "location": "Singapore CFS"
+      },
+      {
+        "event_type": "lcl_consolidation",
+        "timestamp": "2024-11-26T16:00:00Z",
+        "location": "Singapore CFS"
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-27T12:00:00Z",
+        "location": "Port of Singapore"
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-12-03T14:00:00Z",
+        "location": "Port of Mumbai",
+        "delay_minutes": 840
+      },
+      {
+        "event_type": "customs_inspection",
+        "timestamp": "2024-12-04T10:00:00Z",
+        "location": "Customs Port of Mumbai"
+      },
+      {
+        "event_type": "customs_clearance",
+        "timestamp": "2024-12-05T12:00:00Z",
+        "location": "Customs Port of Mumbai"
+      },
+      {
+        "event_type": "lcl_delivery",
+        "timestamp": "2024-12-07T16:00:00Z",
+        "location": "Mumbai CFS"
+      }
+    ],
+    "anomalies": [
+      {
+        "type": "unusual_gap",
+        "message": "More than 26 hours gap between events (road_checkpoint and lcl_consolidation)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 122 hours gap between events (port_departure and port_arrival)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 26 hours gap between events (port_arrival and lcl_deconsolidation)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 50 hours gap between events (lcl_deconsolidation and lcl_consolidation)"
+      },
+      {
+        "type": "late_arrival",
+        "message": "Container arrived 840 minutes after expected time"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 146 hours gap between events (port_departure and port_arrival)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 26 hours gap between events (customs_inspection and customs_clearance)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 52 hours gap between events (customs_clearance and lcl_delivery)"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Out of sequence: lcl_deconsolidation follows port_arrival unexpectedly"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Out of sequence: lcl_consolidation follows lcl_deconsolidation unexpectedly"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Out of sequence: lcl_delivery follows customs_clearance unexpectedly"
+      }
+    ],
+    "journey_progress": 40
+  },
+  {
+    "container_id": "CONT_CHINA_AFRICA_FCL",
+    "current_status": "at_port",
+    "current_location": "Port of Cape Town",
+    "last_event_time": "2024-12-20T10:00:00Z",
+    "timeline": [
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-11-15T04:00:00Z",
+        "location": "Port of Shanghai",
+        "delay_minutes": 240
+      },
+      {
+        "event_type": "customs_clearance",
+        "timestamp": "2024-11-16T12:00:00Z",
+        "location": "Customs Port of Shanghai"
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-17T10:00:00Z",
+        "location": "Port of Shanghai"
+      },
+      {
+        "event_type": "in_transit",
+        "timestamp": "2024-12-05T00:00:00Z",
+        "location": "Indian Ocean"
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-12-20T10:00:00Z",
+        "location": "Port of Cape Town",
+        "delay_minutes": 600
+      }
+    ],
+    "anomalies": [
+      {
+        "type": "late_arrival",
+        "message": "Container arrived 240 minutes after expected time"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 32 hours gap between events (port_arrival and customs_clearance)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 422 hours gap between events (port_departure and in_transit)"
+      },
+      {
+        "type": "late_arrival",
+        "message": "Container arrived 600 minutes after expected time"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 370 hours gap between events (in_transit and port_arrival)"
+      }
+    ],
+    "journey_progress": 100
+  },
+  {
+    "container_id": "CONT_CHINA_AFRICA_LCL",
+    "current_status": "delivered",
+    "current_location": "Mombasa CFS",
+    "last_event_time": "2024-12-15T14:00:00Z",
+    "timeline": [
+      {
+        "event_type": "lcl_pickup",
+        "timestamp": "2024-11-15T08:00:00Z",
+        "location": "Shenzhen CFS"
+      },
+      {
+        "event_type": "lcl_consolidation",
+        "timestamp": "2024-11-16T12:00:00Z",
+        "location": "Shenzhen CFS"
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-17T14:00:00Z",
+        "location": "Port of Shenzhen"
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-12-13T10:00:00Z",
+        "location": "Port of Mombasa",
+        "delay_minutes": 600
+      },
+      {
+        "event_type": "lcl_delivery",
+        "timestamp": "2024-12-15T14:00:00Z",
+        "location": "Mombasa CFS"
+      }
+    ],
+    "anomalies": [
+      {
+        "type": "unusual_gap",
+        "message": "More than 28 hours gap between events (lcl_pickup and lcl_consolidation)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 26 hours gap between events (lcl_consolidation and port_departure)"
+      },
+      {
+        "type": "late_arrival",
+        "message": "Container arrived 600 minutes after expected time"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 620 hours gap between events (port_departure and port_arrival)"
+      },
+      {
+        "type": "unusual_gap",
+        "message": "More than 52 hours gap between events (port_arrival and lcl_delivery)"
+      },
+      {
+        "type": "out_of_sequence",
+        "message": "Out of sequence: lcl_delivery follows port_arrival unexpectedly"
+      }
+    ],
+    "journey_progress": 20
+  }
+]

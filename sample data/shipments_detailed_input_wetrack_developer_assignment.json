@@ -1,0 +1,1810 @@
+[
+  {
+    "container_id": "CONT_INDIA_FCL_001",
+    "shipment_type": "FCL",
+    "trade_type": "export",
+    "origin": "Port of Mumbai, India",
+    "destination": "Port of Rotterdam, Netherlands",
+    "shipper": "ABC Export Company, Mumbai",
+    "consignee": "XYZ Import NV, Rotterdam",
+    "commodity": "Textiles & Garments",
+    "events": [
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-11-15T02:00:00Z",
+        "location": "Port of Mumbai",
+        "metadata": {
+          "port_code": "INMUN1",
+          "expected_arrival": "2024-11-15T00:00:00Z",
+          "vessel_name": "MSC Gulsun",
+          "voyage_no": "001N"
+        }
+      },
+      {
+        "event_type": "customs_clearance",
+        "timestamp": "2024-11-17T12:00:00Z",
+        "location": "Customs Port of Mumbai",
+        "metadata": {
+          "clearance_status": "approved",
+          "clearance_time": 180,
+          "exception": "Documents delayed, but eventually approved"
+        }
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-18T08:00:00Z",
+        "location": "Port of Mumbai",
+        "metadata": {
+          "port_code": "INMUN1",
+          "vessel_name": "MSC Gulsun",
+          "voyage_no": "001N"
+        }
+      },
+      {
+        "event_type": "in_transit",
+        "timestamp": "2024-11-25T00:00:00Z",
+        "location": "Arabian Sea",
+        "metadata": {
+          "voyage_status": "at_sea",
+          "current_position": "12.5\u00b0N 72.0\u00b0E"
+        }
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-12-10T06:00:00Z",
+        "location": "Port of Rotterdam",
+        "metadata": {
+          "port_code": "NLRTM",
+          "expected_arrival": "2024-12-09T00:00:00Z",
+          "vessel_name": "MSC Gulsun"
+        }
+      }
+    ]
+  },
+  {
+    "container_id": "CONT_INDIA_FCL_002",
+    "shipment_type": "FCL",
+    "trade_type": "export",
+    "origin": "Port of Chennai, India",
+    "destination": "Port of Singapore",
+    "shipper": "TechExports Ltd, Bangalore",
+    "consignee": "Global Tech Singapore Pte Ltd",
+    "commodity": "Electronics & Parts",
+    "events": [
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-11-16T04:00:00Z",
+        "location": "Port of Chennai",
+        "metadata": {
+          "port_code": "INMAA1",
+          "expected_arrival": "2024-11-16T00:00:00Z",
+          "vessel_name": "Ever Given",
+          "voyage_no": "345E"
+        }
+      },
+      {
+        "event_type": "customs_inspection",
+        "timestamp": "2024-11-17T10:00:00Z",
+        "location": "Customs Port of Chennai",
+        "metadata": {
+          "inspection_type": "full_inspection",
+          "duration_hours": 8,
+          "status": "inspection_in_progress"
+        }
+      },
+      {
+        "event_type": "customs_clearance",
+        "timestamp": "2024-11-18T14:00:00Z",
+        "location": "Customs Port of Chennai",
+        "metadata": {
+          "clearance_status": "approved_with_conditions",
+          "clearance_time": 240,
+          "exception": "Full inspection required due to electronics"
+        }
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-19T08:00:00Z",
+        "location": "Port of Chennai",
+        "metadata": {
+          "port_code": "INMAA1",
+          "vessel_name": "Ever Given",
+          "voyage_no": "345E"
+        }
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-11-25T10:00:00Z",
+        "location": "Port of Singapore",
+        "metadata": {
+          "port_code": "SGSIN",
+          "expected_arrival": "2024-11-25T00:00:00Z",
+          "vessel_name": "Ever Given"
+        }
+      }
+    ]
+  },
+  {
+    "container_id": "CONT_INDIA_FCL_003",
+    "shipment_type": "FCL",
+    "trade_type": "export",
+    "origin": "Port of Jawaharlal Nehru, India",
+    "destination": "Port of Hong Kong",
+    "shipper": "IndiaShip Exporters, Delhi",
+    "consignee": "Hong Kong Traders Ltd",
+    "commodity": "Industrial Equipment",
+    "events": [
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-11-15T06:00:00Z",
+        "location": "Port of Jawaharlal Nehru",
+        "metadata": {
+          "port_code": "INJNP",
+          "expected_arrival": "2024-11-15T00:00:00Z",
+          "vessel_name": "OOCL Harmony",
+          "voyage_no": "089W"
+        }
+      },
+      {
+        "event_type": "documentation_hold",
+        "timestamp": "2024-11-16T08:00:00Z",
+        "location": "Port of Jawaharlal Nehru",
+        "metadata": {
+          "hold_reason": "missing_bill_of_lading",
+          "status": "on_hold",
+          "days_on_hold": 2
+        }
+      },
+      {
+        "event_type": "customs_clearance",
+        "timestamp": "2024-11-17T16:00:00Z",
+        "location": "Customs Port of Jawaharlal Nehru",
+        "metadata": {
+          "clearance_status": "approved",
+          "clearance_time": 150,
+          "exception": "Documents submitted late"
+        }
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-18T10:00:00Z",
+        "location": "Port of Jawaharlal Nehru",
+        "metadata": {
+          "port_code": "INJNP",
+          "vessel_name": "OOCL Harmony",
+          "voyage_no": "089W"
+        }
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-11-27T04:00:00Z",
+        "location": "Port of Hong Kong",
+        "metadata": {
+          "port_code": "HKHKG",
+          "expected_arrival": "2024-11-26T00:00:00Z",
+          "vessel_name": "OOCL Harmony"
+        }
+      }
+    ]
+  },
+  {
+    "container_id": "CONT_INDIA_FCL_004",
+    "shipment_type": "FCL",
+    "trade_type": "export",
+    "origin": "Port of Cochin, India",
+    "destination": "Port of Jebel Ali, UAE",
+    "shipper": "Spice Export Corp, Kerala",
+    "consignee": "Middle East Trading, Dubai",
+    "commodity": "Spices & Dried Foods",
+    "events": [
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-11-17T12:00:00Z",
+        "location": "Port of Cochin",
+        "metadata": {
+          "port_code": "INCOK",
+          "expected_arrival": "2024-11-17T08:00:00Z",
+          "vessel_name": "COSCO Shipping Universe",
+          "voyage_no": "567C"
+        }
+      },
+      {
+        "event_type": "customs_clearance",
+        "timestamp": "2024-11-19T14:00:00Z",
+        "location": "Customs Port of Cochin",
+        "metadata": {
+          "clearance_status": "approved",
+          "clearance_time": 300,
+          "exception": "Port congestion + food commodity inspection delay"
+        }
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-20T06:00:00Z",
+        "location": "Port of Cochin",
+        "metadata": {
+          "port_code": "INCOK",
+          "vessel_name": "COSCO Shipping Universe",
+          "voyage_no": "567C"
+        }
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-11-23T16:00:00Z",
+        "location": "Port of Jebel Ali",
+        "metadata": {
+          "port_code": "AEDXB",
+          "expected_arrival": "2024-11-23T00:00:00Z",
+          "vessel_name": "COSCO Shipping Universe"
+        }
+      }
+    ]
+  },
+  {
+    "container_id": "CONT_TRANS_IMP_001",
+    "shipment_type": "FCL",
+    "trade_type": "import",
+    "service_type": "transshipment",
+    "origin": "Port of Los Angeles, USA",
+    "transshipment_port": "Port of Singapore",
+    "destination": "Port of Mumbai, India",
+    "shipper": "California Exports LLC",
+    "consignee": "Mumbai Imports India",
+    "commodity": "Industrial Machinery",
+    "events": [
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-11-16T10:00:00Z",
+        "location": "Port of Los Angeles",
+        "metadata": {
+          "port_code": "USLAX",
+          "expected_arrival": "2024-11-16T08:00:00Z",
+          "vessel_name": "Pacific Explorer"
+        }
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-18T12:00:00Z",
+        "location": "Port of Los Angeles",
+        "metadata": {
+          "port_code": "USLAX",
+          "vessel_name": "Pacific Explorer"
+        }
+      },
+      {
+        "event_type": "transshipment_arrival",
+        "timestamp": "2024-12-03T04:00:00Z",
+        "location": "Port of Singapore",
+        "metadata": {
+          "port_code": "SGSIN",
+          "vessel_name": "Pacific Explorer",
+          "transshipment_status": "vessel_arrived"
+        }
+      },
+      {
+        "event_type": "transshipment_loading",
+        "timestamp": "2024-12-04T08:00:00Z",
+        "location": "Port of Singapore",
+        "metadata": {
+          "old_vessel": "Pacific Explorer",
+          "new_vessel": "MSC Sola",
+          "loading_status": "loaded_on_new_vessel"
+        }
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-12-05T06:00:00Z",
+        "location": "Port of Singapore",
+        "metadata": {
+          "port_code": "SGSIN",
+          "vessel_name": "MSC Sola"
+        }
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-12-11T08:00:00Z",
+        "location": "Port of Mumbai",
+        "metadata": {
+          "port_code": "INMUN1",
+          "expected_arrival": "2024-12-11T00:00:00Z",
+          "vessel_name": "MSC Sola"
+        }
+      }
+    ]
+  },
+  {
+    "container_id": "CONT_TRANS_IMP_002",
+    "shipment_type": "FCL",
+    "trade_type": "import",
+    "service_type": "transshipment",
+    "origin": "Port of Rotterdam, Netherlands",
+    "transshipment_port": "Port Said, Egypt",
+    "destination": "Port of Chennai, India",
+    "shipper": "European Logistics BV",
+    "consignee": "Chennai Tech Imports",
+    "commodity": "Electronics & Components",
+    "events": [
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-11-15T08:00:00Z",
+        "location": "Port of Rotterdam",
+        "metadata": {
+          "port_code": "NLRTM",
+          "expected_arrival": "2024-11-15T06:00:00Z",
+          "vessel_name": "Maersk Seatrade"
+        }
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-17T10:00:00Z",
+        "location": "Port of Rotterdam",
+        "metadata": {
+          "port_code": "NLRTM",
+          "vessel_name": "Maersk Seatrade"
+        }
+      },
+      {
+        "event_type": "transshipment_arrival",
+        "timestamp": "2024-11-25T06:00:00Z",
+        "location": "Port Said",
+        "metadata": {
+          "port_code": "EGSUZ",
+          "vessel_name": "Maersk Seatrade",
+          "transshipment_status": "vessel_arrived"
+        }
+      },
+      {
+        "event_type": "transshipment_loading",
+        "timestamp": "2024-11-26T12:00:00Z",
+        "location": "Port Said",
+        "metadata": {
+          "old_vessel": "Maersk Seatrade",
+          "new_vessel": "Ever Given",
+          "loading_status": "loaded_on_new_vessel"
+        }
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-27T08:00:00Z",
+        "location": "Port Said",
+        "metadata": {
+          "port_code": "EGSUZ",
+          "vessel_name": "Ever Given"
+        }
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-12-07T10:00:00Z",
+        "location": "Port of Chennai",
+        "metadata": {
+          "port_code": "INMAA1",
+          "expected_arrival": "2024-12-07T00:00:00Z",
+          "vessel_name": "Ever Given"
+        }
+      }
+    ]
+  },
+  {
+    "container_id": "CONT_TRANS_IMP_003",
+    "shipment_type": "FCL",
+    "trade_type": "import",
+    "service_type": "transshipment",
+    "origin": "Port of Melbourne, Australia",
+    "transshipment_port": "Port of Bangkok, Thailand",
+    "destination": "Port of Cochin, India",
+    "shipper": "Aussie Exports Pty Ltd",
+    "consignee": "Kerala Imports Ltd",
+    "commodity": "Agricultural Products",
+    "events": [
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-11-17T14:00:00Z",
+        "location": "Port of Melbourne",
+        "metadata": {
+          "port_code": "AUMEL",
+          "expected_arrival": "2024-11-17T12:00:00Z",
+          "vessel_name": "ONE Apus"
+        }
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-19T16:00:00Z",
+        "location": "Port of Melbourne",
+        "metadata": {
+          "port_code": "AUMEL",
+          "vessel_name": "ONE Apus"
+        }
+      },
+      {
+        "event_type": "transshipment_arrival",
+        "timestamp": "2024-11-27T10:00:00Z",
+        "location": "Port of Bangkok",
+        "metadata": {
+          "port_code": "THBKK",
+          "vessel_name": "ONE Apus",
+          "transshipment_status": "vessel_arrived"
+        }
+      },
+      {
+        "event_type": "transshipment_loading",
+        "timestamp": "2024-11-28T14:00:00Z",
+        "location": "Port of Bangkok",
+        "metadata": {
+          "old_vessel": "ONE Apus",
+          "new_vessel": "COSCO Shipping Galaxy",
+          "loading_status": "loaded_on_new_vessel"
+        }
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-29T10:00:00Z",
+        "location": "Port of Bangkok",
+        "metadata": {
+          "port_code": "THBKK",
+          "vessel_name": "COSCO Shipping Galaxy"
+        }
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-12-03T12:00:00Z",
+        "location": "Port of Cochin",
+        "metadata": {
+          "port_code": "INCOK",
+          "expected_arrival": "2024-12-03T00:00:00Z",
+          "vessel_name": "COSCO Shipping Galaxy"
+        }
+      }
+    ]
+  },
+  {
+    "container_id": "CONT_LCL_EXP_T001",
+    "shipment_type": "LCL",
+    "trade_type": "export",
+    "service_type": "transshipment",
+    "origin": "Mumbai CFS, India",
+    "consolidation_port": "Port of Singapore",
+    "destination": "Port of Hamburg, Germany",
+    "shipper": "Small Export Co, Mumbai",
+    "consignee": "Hamburg Imports GmbH",
+    "commodity": "Handicrafts & Small Parts",
+    "lcl_details": {
+      "volume_cbm": 12.5,
+      "weight_kg": 8000,
+      "packages": 85
+    },
+    "events": [
+      {
+        "event_type": "lcl_pickup",
+        "timestamp": "2024-11-15T08:00:00Z",
+        "location": "Mumbai CFS",
+        "metadata": {
+          "cfs_code": "INMUN_CFS_01",
+          "pickup_status": "completed",
+          "packages": 85
+        }
+      },
+      {
+        "event_type": "lcl_consolidation",
+        "timestamp": "2024-11-17T10:00:00Z",
+        "location": "Mumbai CFS",
+        "metadata": {
+          "consolidation_status": "consolidation_in_progress",
+          "container_id": "CONT_CONS_001"
+        }
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-18T12:00:00Z",
+        "location": "Port of Mumbai",
+        "metadata": {
+          "port_code": "INMUN1",
+          "vessel_name": "MSC Gulsun",
+          "consolidated_container": "CONT_CONS_001"
+        }
+      },
+      {
+        "event_type": "transshipment_arrival",
+        "timestamp": "2024-11-29T08:00:00Z",
+        "location": "Port of Singapore",
+        "metadata": {
+          "port_code": "SGSIN",
+          "transshipment_status": "arrived_at_transshipment"
+        }
+      },
+      {
+        "event_type": "lcl_deconsolidation",
+        "timestamp": "2024-12-01T10:00:00Z",
+        "location": "Singapore CFS",
+        "metadata": {
+          "deconsolidation_status": "deconsolidation_completed",
+          "packages": 85
+        }
+      },
+      {
+        "event_type": "lcl_consolidation",
+        "timestamp": "2024-12-02T14:00:00Z",
+        "location": "Singapore CFS",
+        "metadata": {
+          "consolidation_status": "new_consolidation_loaded",
+          "new_container_id": "CONT_CONS_002"
+        }
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-12-03T08:00:00Z",
+        "location": "Port of Singapore",
+        "metadata": {
+          "port_code": "SGSIN",
+          "vessel_name": "OOCL Harmony",
+          "consolidated_container": "CONT_CONS_002"
+        }
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-12-17T12:00:00Z",
+        "location": "Port of Hamburg",
+        "metadata": {
+          "port_code": "DEHAM",
+          "expected_arrival": "2024-12-17T00:00:00Z",
+          "vessel_name": "OOCL Harmony"
+        }
+      }
+    ]
+  },
+  {
+    "container_id": "CONT_LCL_EXP_T002",
+    "shipment_type": "LCL",
+    "trade_type": "export",
+    "service_type": "transshipment",
+    "origin": "Bangalore CFS, India",
+    "consolidation_port": "Port of Port Said, Egypt",
+    "destination": "Port of London, UK",
+    "shipper": "Tech Components Export, Bangalore",
+    "consignee": "London Tech Distribution",
+    "commodity": "Electronics Components",
+    "lcl_details": {
+      "volume_cbm": 18.0,
+      "weight_kg": 12000,
+      "packages": 120
+    },
+    "events": [
+      {
+        "event_type": "lcl_pickup",
+        "timestamp": "2024-11-16T06:00:00Z",
+        "location": "Bangalore CFS",
+        "metadata": {
+          "cfs_code": "INBZL_CFS_01",
+          "pickup_status": "completed",
+          "packages": 120
+        }
+      },
+      {
+        "event_type": "road_checkpoint",
+        "timestamp": "2024-11-16T14:00:00Z",
+        "location": "Highway checkpoint, Karnataka",
+        "metadata": {
+          "checkpoint_type": "interstate",
+          "status": "cleared"
+        }
+      },
+      {
+        "event_type": "lcl_consolidation",
+        "timestamp": "2024-11-17T10:00:00Z",
+        "location": "Bangalore CFS",
+        "metadata": {
+          "consolidation_status": "consolidation_completed",
+          "container_id": "CONT_CONS_003"
+        }
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-18T08:00:00Z",
+        "location": "Port of Chennai",
+        "metadata": {
+          "port_code": "INMAA1",
+          "vessel_name": "Evergreen Ever Given",
+          "consolidated_container": "CONT_CONS_003"
+        }
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-11-27T10:00:00Z",
+        "location": "Port of Port Said",
+        "metadata": {
+          "port_code": "EGSUZ",
+          "transshipment_status": "transshipment_port_arrived"
+        }
+      },
+      {
+        "event_type": "lcl_deconsolidation",
+        "timestamp": "2024-11-28T12:00:00Z",
+        "location": "Port Said CFS",
+        "metadata": {
+          "deconsolidation_status": "deconsolidation_completed",
+          "packages": 120
+        }
+      },
+      {
+        "event_type": "lcl_consolidation",
+        "timestamp": "2024-11-29T14:00:00Z",
+        "location": "Port Said CFS",
+        "metadata": {
+          "consolidation_status": "new_consolidation_loaded",
+          "new_container_id": "CONT_CONS_004"
+        }
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-30T10:00:00Z",
+        "location": "Port of Port Said",
+        "metadata": {
+          "port_code": "EGSUZ",
+          "vessel_name": "CMA CGM Antoine",
+          "consolidated_container": "CONT_CONS_004"
+        }
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-12-13T14:00:00Z",
+        "location": "Port of London",
+        "metadata": {
+          "port_code": "GBLON",
+          "expected_arrival": "2024-12-13T00:00:00Z",
+          "vessel_name": "CMA CGM Antoine"
+        }
+      }
+    ]
+  },
+  {
+    "container_id": "CONT_LCL_EXP_T003",
+    "shipment_type": "LCL",
+    "trade_type": "export",
+    "service_type": "transshipment",
+    "origin": "Chennai CFS, India",
+    "consolidation_port": "Port of Singapore",
+    "destination": "Port of Vancouver, Canada",
+    "shipper": "Marine Equipment Export, Chennai",
+    "consignee": "Vancouver Distribution Center",
+    "commodity": "Marine Equipment & Parts",
+    "lcl_details": {
+      "volume_cbm": 22.0,
+      "weight_kg": 15000,
+      "packages": 145
+    },
+    "events": [
+      {
+        "event_type": "lcl_pickup",
+        "timestamp": "2024-11-15T10:00:00Z",
+        "location": "Chennai CFS",
+        "metadata": {
+          "cfs_code": "INMAA_CFS_01",
+          "pickup_status": "completed",
+          "packages": 145
+        }
+      },
+      {
+        "event_type": "lcl_consolidation",
+        "timestamp": "2024-11-17T12:00:00Z",
+        "location": "Chennai CFS",
+        "metadata": {
+          "consolidation_status": "consolidation_completed",
+          "container_id": "CONT_CONS_005"
+        }
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-18T06:00:00Z",
+        "location": "Port of Chennai",
+        "metadata": {
+          "port_code": "INMAA1",
+          "vessel_name": "ONE Innovation",
+          "consolidated_container": "CONT_CONS_005"
+        }
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-11-27T08:00:00Z",
+        "location": "Port of Singapore",
+        "metadata": {
+          "port_code": "SGSIN",
+          "transshipment_status": "transshipment_port_arrived"
+        }
+      },
+      {
+        "event_type": "lcl_deconsolidation",
+        "timestamp": "2024-11-28T10:00:00Z",
+        "location": "Singapore CFS",
+        "metadata": {
+          "deconsolidation_status": "deconsolidation_completed",
+          "packages": 145
+        }
+      },
+      {
+        "event_type": "lcl_consolidation",
+        "timestamp": "2024-11-29T16:00:00Z",
+        "location": "Singapore CFS",
+        "metadata": {
+          "consolidation_status": "new_consolidation_loaded",
+          "new_container_id": "CONT_CONS_006"
+        }
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-30T12:00:00Z",
+        "location": "Port of Singapore",
+        "metadata": {
+          "port_code": "SGSIN",
+          "vessel_name": "MSC Oscar",
+          "consolidated_container": "CONT_CONS_006"
+        }
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-12-19T10:00:00Z",
+        "location": "Port of Vancouver",
+        "metadata": {
+          "port_code": "CAVNC",
+          "expected_arrival": "2024-12-19T00:00:00Z",
+          "vessel_name": "MSC Oscar"
+        }
+      }
+    ]
+  },
+  {
+    "container_id": "CONT_LCL_EXP_T004",
+    "shipment_type": "LCL",
+    "trade_type": "export",
+    "service_type": "transshipment",
+    "origin": "Delhi CFS, India",
+    "consolidation_port": "Port of Jebel Ali, UAE",
+    "destination": "Port of Jeddah, Saudi Arabia",
+    "shipper": "Fashion Export House, Delhi",
+    "consignee": "Saudi Fashion Imports",
+    "commodity": "Clothing & Textiles",
+    "lcl_details": {
+      "volume_cbm": 15.0,
+      "weight_kg": 9000,
+      "packages": 95
+    },
+    "events": [
+      {
+        "event_type": "lcl_pickup",
+        "timestamp": "2024-11-16T08:00:00Z",
+        "location": "Delhi CFS",
+        "metadata": {
+          "cfs_code": "INDEL_CFS_01",
+          "pickup_status": "completed",
+          "packages": 95
+        }
+      },
+      {
+        "event_type": "lcl_consolidation",
+        "timestamp": "2024-11-17T14:00:00Z",
+        "location": "Delhi CFS",
+        "metadata": {
+          "consolidation_status": "consolidation_completed",
+          "container_id": "CONT_CONS_007"
+        }
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-18T10:00:00Z",
+        "location": "Port of Jawaharlal Nehru",
+        "metadata": {
+          "port_code": "INJNP",
+          "vessel_name": "COSCO Shipping Aries",
+          "consolidated_container": "CONT_CONS_007"
+        }
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-11-24T12:00:00Z",
+        "location": "Port of Jebel Ali",
+        "metadata": {
+          "port_code": "AEDXB",
+          "transshipment_status": "transshipment_port_arrived"
+        }
+      },
+      {
+        "event_type": "lcl_deconsolidation",
+        "timestamp": "2024-11-25T10:00:00Z",
+        "location": "Jebel Ali CFS",
+        "metadata": {
+          "deconsolidation_status": "deconsolidation_completed",
+          "packages": 95
+        }
+      },
+      {
+        "event_type": "lcl_consolidation",
+        "timestamp": "2024-11-26T12:00:00Z",
+        "location": "Jebel Ali CFS",
+        "metadata": {
+          "consolidation_status": "new_consolidation_loaded",
+          "new_container_id": "CONT_CONS_008"
+        }
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-27T08:00:00Z",
+        "location": "Port of Jebel Ali",
+        "metadata": {
+          "port_code": "AEDXB",
+          "vessel_name": "Suez Maersk",
+          "consolidated_container": "CONT_CONS_008"
+        }
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-11-29T14:00:00Z",
+        "location": "Port of Jeddah",
+        "metadata": {
+          "port_code": "SAJED",
+          "expected_arrival": "2024-11-29T00:00:00Z",
+          "vessel_name": "Suez Maersk"
+        }
+      }
+    ]
+  },
+  {
+    "container_id": "CONT_LCL_EXP_T005",
+    "shipment_type": "LCL",
+    "trade_type": "export",
+    "service_type": "transshipment",
+    "origin": "Pune CFS, India",
+    "consolidation_port": "Port of Singapore",
+    "destination": "Port of Sydney, Australia",
+    "shipper": "Auto Parts Export, Pune",
+    "consignee": "Australian Auto Importers",
+    "commodity": "Automobile Parts & Components",
+    "lcl_details": {
+      "volume_cbm": 19.5,
+      "weight_kg": 14000,
+      "packages": 130
+    },
+    "events": [
+      {
+        "event_type": "lcl_pickup",
+        "timestamp": "2024-11-15T12:00:00Z",
+        "location": "Pune CFS",
+        "metadata": {
+          "cfs_code": "INPNQ_CFS_01",
+          "pickup_status": "completed",
+          "packages": 130
+        }
+      },
+      {
+        "event_type": "lcl_consolidation",
+        "timestamp": "2024-11-17T16:00:00Z",
+        "location": "Pune CFS",
+        "metadata": {
+          "consolidation_status": "consolidation_completed",
+          "container_id": "CONT_CONS_009"
+        }
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-18T14:00:00Z",
+        "location": "Port of Mumbai",
+        "metadata": {
+          "port_code": "INMUN1",
+          "vessel_name": "HMM Algeciras",
+          "consolidated_container": "CONT_CONS_009"
+        }
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-11-29T10:00:00Z",
+        "location": "Port of Singapore",
+        "metadata": {
+          "port_code": "SGSIN",
+          "transshipment_status": "transshipment_port_arrived"
+        }
+      },
+      {
+        "event_type": "lcl_deconsolidation",
+        "timestamp": "2024-11-30T12:00:00Z",
+        "location": "Singapore CFS",
+        "metadata": {
+          "deconsolidation_status": "deconsolidation_completed",
+          "packages": 130
+        }
+      },
+      {
+        "event_type": "lcl_consolidation",
+        "timestamp": "2024-12-01T14:00:00Z",
+        "location": "Singapore CFS",
+        "metadata": {
+          "consolidation_status": "new_consolidation_loaded",
+          "new_container_id": "CONT_CONS_010"
+        }
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-12-02T10:00:00Z",
+        "location": "Port of Singapore",
+        "metadata": {
+          "port_code": "SGSIN",
+          "vessel_name": "PIL Pacific",
+          "consolidated_container": "CONT_CONS_010"
+        }
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-12-13T16:00:00Z",
+        "location": "Port of Sydney",
+        "metadata": {
+          "port_code": "AUSYD",
+          "expected_arrival": "2024-12-13T00:00:00Z",
+          "vessel_name": "PIL Pacific"
+        }
+      }
+    ]
+  },
+  {
+    "container_id": "CONT_LCL_IMP_T001",
+    "shipment_type": "LCL",
+    "trade_type": "import",
+    "service_type": "transshipment",
+    "origin": "Houston CFS, USA",
+    "transshipment_port": "Port of Singapore",
+    "destination": "Mumbai CFS, India",
+    "shipper": "Texas Imports Corp",
+    "consignee": "Mumbai Distribution India",
+    "commodity": "Industrial Chemicals",
+    "lcl_details": {
+      "volume_cbm": 20.0,
+      "weight_kg": 11000,
+      "packages": 110
+    },
+    "events": [
+      {
+        "event_type": "lcl_pickup",
+        "timestamp": "2024-11-15T08:00:00Z",
+        "location": "Houston CFS",
+        "metadata": {
+          "cfs_code": "USHOU_CFS_01",
+          "pickup_status": "completed",
+          "packages": 110
+        }
+      },
+      {
+        "event_type": "lcl_consolidation",
+        "timestamp": "2024-11-16T10:00:00Z",
+        "location": "Houston CFS",
+        "metadata": {
+          "consolidation_status": "consolidation_completed",
+          "container_id": "CONT_CONS_011"
+        }
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-17T12:00:00Z",
+        "location": "Port of Houston",
+        "metadata": {
+          "port_code": "USHOU",
+          "vessel_name": "Seamax Container",
+          "consolidated_container": "CONT_CONS_011"
+        }
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-12-03T08:00:00Z",
+        "location": "Port of Singapore",
+        "metadata": {
+          "port_code": "SGSIN",
+          "transshipment_status": "transshipment_port_arrived"
+        }
+      },
+      {
+        "event_type": "lcl_deconsolidation",
+        "timestamp": "2024-12-04T10:00:00Z",
+        "location": "Singapore CFS",
+        "metadata": {
+          "deconsolidation_status": "deconsolidation_completed",
+          "packages": 110
+        }
+      },
+      {
+        "event_type": "lcl_consolidation",
+        "timestamp": "2024-12-05T14:00:00Z",
+        "location": "Singapore CFS",
+        "metadata": {
+          "consolidation_status": "new_consolidation_loaded",
+          "new_container_id": "CONT_CONS_012"
+        }
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-12-06T10:00:00Z",
+        "location": "Port of Singapore",
+        "metadata": {
+          "port_code": "SGSIN",
+          "vessel_name": "MSC Sola",
+          "consolidated_container": "CONT_CONS_012"
+        }
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-12-12T12:00:00Z",
+        "location": "Port of Mumbai",
+        "metadata": {
+          "port_code": "INMUN1",
+          "expected_arrival": "2024-12-12T00:00:00Z",
+          "vessel_name": "MSC Sola"
+        }
+      },
+      {
+        "event_type": "customs_hold",
+        "timestamp": "2024-12-13T10:00:00Z",
+        "location": "Customs Port of Mumbai",
+        "metadata": {
+          "hold_reason": "chemical_documentation_verification",
+          "status": "on_hold",
+          "exception": "Chemical import requires additional certifications"
+        }
+      },
+      {
+        "event_type": "customs_clearance",
+        "timestamp": "2024-12-15T14:00:00Z",
+        "location": "Customs Port of Mumbai",
+        "metadata": {
+          "clearance_status": "approved",
+          "clearance_time": 300,
+          "exception": "Delayed due to chemical import verification"
+        }
+      },
+      {
+        "event_type": "lcl_delivery",
+        "timestamp": "2024-12-16T16:00:00Z",
+        "location": "Mumbai CFS",
+        "metadata": {
+          "delivery_status": "delivered",
+          "packages": 110,
+          "delivery_delay_reason": "Customs clearance delay"
+        }
+      }
+    ]
+  },
+  {
+    "container_id": "CONT_LCL_IMP_T002",
+    "shipment_type": "LCL",
+    "trade_type": "import",
+    "service_type": "transshipment",
+    "origin": "Hamburg CFS, Germany",
+    "transshipment_port": "Port Said, Egypt",
+    "destination": "Chennai CFS, India",
+    "shipper": "German Machinery Import",
+    "consignee": "Chennai Tech Solutions",
+    "commodity": "Machinery & Equipment",
+    "lcl_details": {
+      "volume_cbm": 25.0,
+      "weight_kg": 16000,
+      "packages": 155
+    },
+    "events": [
+      {
+        "event_type": "lcl_pickup",
+        "timestamp": "2024-11-15T06:00:00Z",
+        "location": "Hamburg CFS",
+        "metadata": {
+          "cfs_code": "DEHAM_CFS_01",
+          "pickup_status": "completed",
+          "packages": 155
+        }
+      },
+      {
+        "event_type": "lcl_consolidation",
+        "timestamp": "2024-11-16T12:00:00Z",
+        "location": "Hamburg CFS",
+        "metadata": {
+          "consolidation_status": "consolidation_completed",
+          "container_id": "CONT_CONS_013"
+        }
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-17T14:00:00Z",
+        "location": "Port of Hamburg",
+        "metadata": {
+          "port_code": "DEHAM",
+          "vessel_name": "Maersk Estonia",
+          "consolidated_container": "CONT_CONS_013"
+        }
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-11-26T10:00:00Z",
+        "location": "Port Said",
+        "metadata": {
+          "port_code": "EGSUZ",
+          "transshipment_status": "transshipment_port_arrived",
+          "exception": "Port congestion - delayed unloading"
+        }
+      },
+      {
+        "event_type": "lcl_deconsolidation",
+        "timestamp": "2024-11-28T12:00:00Z",
+        "location": "Port Said CFS",
+        "metadata": {
+          "deconsolidation_status": "deconsolidation_completed",
+          "packages": 155,
+          "exception": "Delayed due to port congestion"
+        }
+      },
+      {
+        "event_type": "lcl_consolidation",
+        "timestamp": "2024-11-29T16:00:00Z",
+        "location": "Port Said CFS",
+        "metadata": {
+          "consolidation_status": "new_consolidation_loaded",
+          "new_container_id": "CONT_CONS_014"
+        }
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-12-01T08:00:00Z",
+        "location": "Port Said",
+        "metadata": {
+          "port_code": "EGSUZ",
+          "vessel_name": "Ever Given",
+          "consolidated_container": "CONT_CONS_014"
+        }
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-12-11T10:00:00Z",
+        "location": "Port of Chennai",
+        "metadata": {
+          "port_code": "INMAA1",
+          "expected_arrival": "2024-12-10T00:00:00Z",
+          "vessel_name": "Ever Given"
+        }
+      },
+      {
+        "event_type": "lcl_delivery",
+        "timestamp": "2024-12-13T14:00:00Z",
+        "location": "Chennai CFS",
+        "metadata": {
+          "delivery_status": "delivered",
+          "packages": 155,
+          "delivery_delay_reason": "Port congestion at transshipment port"
+        }
+      }
+    ]
+  },
+  {
+    "container_id": "CONT_LCL_IMP_T003",
+    "shipment_type": "LCL",
+    "trade_type": "import",
+    "service_type": "transshipment",
+    "origin": "Tokyo CFS, Japan",
+    "transshipment_port": "Port of Hong Kong",
+    "destination": "Cochin CFS, India",
+    "shipper": "Tokyo Electronics Ltd",
+    "consignee": "Cochin Electronics India",
+    "commodity": "Electronic Components",
+    "lcl_details": {
+      "volume_cbm": 17.0,
+      "weight_kg": 10000,
+      "packages": 100
+    },
+    "events": [
+      {
+        "event_type": "lcl_pickup",
+        "timestamp": "2024-11-16T08:00:00Z",
+        "location": "Tokyo CFS",
+        "metadata": {
+          "cfs_code": "JPTYO_CFS_01",
+          "pickup_status": "completed",
+          "packages": 100
+        }
+      },
+      {
+        "event_type": "lcl_consolidation",
+        "timestamp": "2024-11-17T10:00:00Z",
+        "location": "Tokyo CFS",
+        "metadata": {
+          "consolidation_status": "consolidation_completed",
+          "container_id": "CONT_CONS_015"
+        }
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-18T06:00:00Z",
+        "location": "Port of Tokyo",
+        "metadata": {
+          "port_code": "JPTYO",
+          "vessel_name": "PIL Phoenix",
+          "consolidated_container": "CONT_CONS_015"
+        }
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-11-23T12:00:00Z",
+        "location": "Port of Hong Kong",
+        "metadata": {
+          "port_code": "HKHKG",
+          "transshipment_status": "transshipment_port_arrived"
+        }
+      },
+      {
+        "event_type": "documentation_hold",
+        "timestamp": "2024-11-24T10:00:00Z",
+        "location": "Hong Kong CFS",
+        "metadata": {
+          "hold_reason": "missing_electronic_product_certification",
+          "status": "on_hold",
+          "exception": "Certificate documentation missing"
+        }
+      },
+      {
+        "event_type": "lcl_deconsolidation",
+        "timestamp": "2024-11-26T14:00:00Z",
+        "location": "Hong Kong CFS",
+        "metadata": {
+          "deconsolidation_status": "deconsolidation_completed",
+          "packages": 100
+        }
+      },
+      {
+        "event_type": "lcl_consolidation",
+        "timestamp": "2024-11-27T16:00:00Z",
+        "location": "Hong Kong CFS",
+        "metadata": {
+          "consolidation_status": "new_consolidation_loaded",
+          "new_container_id": "CONT_CONS_016"
+        }
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-28T12:00:00Z",
+        "location": "Port of Hong Kong",
+        "metadata": {
+          "port_code": "HKHKG",
+          "vessel_name": "OOCL Harmony",
+          "consolidated_container": "CONT_CONS_016"
+        }
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-12-05T10:00:00Z",
+        "location": "Port of Cochin",
+        "metadata": {
+          "port_code": "INCOK",
+          "expected_arrival": "2024-12-05T00:00:00Z",
+          "vessel_name": "OOCL Harmony"
+        }
+      },
+      {
+        "event_type": "customs_hold",
+        "timestamp": "2024-12-06T08:00:00Z",
+        "location": "Customs Port of Cochin",
+        "metadata": {
+          "hold_reason": "electronic_import_verification",
+          "status": "on_hold",
+          "exception": "Certification issue - under review"
+        }
+      },
+      {
+        "event_type": "lcl_delivery",
+        "timestamp": "2024-12-10T12:00:00Z",
+        "location": "Cochin CFS",
+        "metadata": {
+          "delivery_status": "delivered_with_exception",
+          "packages": 100,
+          "delivery_delay_reason": "Documentation and customs verification"
+        }
+      }
+    ]
+  },
+  {
+    "container_id": "CONT_LCL_IMP_T004",
+    "shipment_type": "LCL",
+    "trade_type": "import",
+    "service_type": "transshipment",
+    "origin": "Busan CFS, South Korea",
+    "transshipment_port": "Port of Singapore",
+    "destination": "Bangalore CFS, India",
+    "shipper": "Seoul Manufacturing Co",
+    "consignee": "Bangalore Tech Imports",
+    "commodity": "Electronics & Components",
+    "lcl_details": {
+      "volume_cbm": 18.5,
+      "weight_kg": 12000,
+      "packages": 105
+    },
+    "events": [
+      {
+        "event_type": "lcl_pickup",
+        "timestamp": "2024-11-15T10:00:00Z",
+        "location": "Busan CFS",
+        "metadata": {
+          "cfs_code": "KRPUS_CFS_01",
+          "pickup_status": "completed",
+          "packages": 105
+        }
+      },
+      {
+        "event_type": "lcl_consolidation",
+        "timestamp": "2024-11-17T12:00:00Z",
+        "location": "Busan CFS",
+        "metadata": {
+          "consolidation_status": "consolidation_completed",
+          "container_id": "CONT_CONS_017"
+        }
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-18T08:00:00Z",
+        "location": "Port of Busan",
+        "metadata": {
+          "port_code": "KRPUS",
+          "vessel_name": "Cosco Shipping Universe",
+          "consolidated_container": "CONT_CONS_017"
+        }
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-11-25T14:00:00Z",
+        "location": "Port of Singapore",
+        "metadata": {
+          "port_code": "SGSIN",
+          "transshipment_status": "transshipment_port_arrived"
+        }
+      },
+      {
+        "event_type": "lcl_damage_inspection",
+        "timestamp": "2024-11-26T10:00:00Z",
+        "location": "Singapore CFS",
+        "metadata": {
+          "inspection_status": "damage_detected",
+          "damaged_packages": 3,
+          "exception": "Package damage during handling"
+        }
+      },
+      {
+        "event_type": "lcl_deconsolidation",
+        "timestamp": "2024-11-27T16:00:00Z",
+        "location": "Singapore CFS",
+        "metadata": {
+          "deconsolidation_status": "deconsolidation_completed",
+          "packages": 105,
+          "damaged_packages": 3
+        }
+      },
+      {
+        "event_type": "lcl_consolidation",
+        "timestamp": "2024-11-28T14:00:00Z",
+        "location": "Singapore CFS",
+        "metadata": {
+          "consolidation_status": "new_consolidation_loaded",
+          "new_container_id": "CONT_CONS_018"
+        }
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-29T10:00:00Z",
+        "location": "Port of Singapore",
+        "metadata": {
+          "port_code": "SGSIN",
+          "vessel_name": "MSC Gulsun",
+          "consolidated_container": "CONT_CONS_018"
+        }
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-12-07T12:00:00Z",
+        "location": "Port of Cochin",
+        "metadata": {
+          "port_code": "INCOK",
+          "expected_arrival": "2024-12-07T00:00:00Z",
+          "vessel_name": "MSC Gulsun"
+        }
+      },
+      {
+        "event_type": "lcl_delivery",
+        "timestamp": "2024-12-09T16:00:00Z",
+        "location": "Bangalore CFS",
+        "metadata": {
+          "delivery_status": "delivered_partial_damage",
+          "packages": 105,
+          "damaged_packages": 3,
+          "delivery_exception": "Cargo damage during transshipment"
+        }
+      }
+    ]
+  },
+  {
+    "container_id": "CONT_LCL_IMP_T005",
+    "shipment_type": "LCL",
+    "trade_type": "import",
+    "service_type": "transshipment",
+    "origin": "Kuala Lumpur CFS, Malaysia",
+    "transshipment_port": "Port of Singapore",
+    "destination": "Delhi CFS, India",
+    "shipper": "Malaysia Exports Sdn Bhd",
+    "consignee": "Delhi Imports House",
+    "commodity": "Industrial Raw Materials",
+    "lcl_details": {
+      "volume_cbm": 21.0,
+      "weight_kg": 13000,
+      "packages": 115
+    },
+    "events": [
+      {
+        "event_type": "lcl_pickup",
+        "timestamp": "2024-11-15T14:00:00Z",
+        "location": "Kuala Lumpur CFS",
+        "metadata": {
+          "cfs_code": "MYKUL_CFS_01",
+          "pickup_status": "completed",
+          "packages": 115
+        }
+      },
+      {
+        "event_type": "lcl_consolidation",
+        "timestamp": "2024-11-17T10:00:00Z",
+        "location": "Kuala Lumpur CFS",
+        "metadata": {
+          "consolidation_status": "consolidation_completed",
+          "container_id": "CONT_CONS_019"
+        }
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-18T12:00:00Z",
+        "location": "Port of Kuala Lumpur",
+        "metadata": {
+          "port_code": "MYKL",
+          "vessel_name": "Evergreen Ever Given",
+          "consolidated_container": "CONT_CONS_019"
+        }
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-11-20T08:00:00Z",
+        "location": "Port of Singapore",
+        "metadata": {
+          "port_code": "SGSIN",
+          "transshipment_status": "transshipment_port_arrived"
+        }
+      },
+      {
+        "event_type": "customs_hold",
+        "timestamp": "2024-11-21T10:00:00Z",
+        "location": "Singapore Customs",
+        "metadata": {
+          "hold_reason": "re_export_license_verification",
+          "status": "on_hold",
+          "expected_resolution": "3-4 days"
+        }
+      },
+      {
+        "event_type": "lcl_deconsolidation",
+        "timestamp": "2024-11-24T14:00:00Z",
+        "location": "Singapore CFS",
+        "metadata": {
+          "deconsolidation_status": "deconsolidation_completed",
+          "packages": 115
+        }
+      },
+      {
+        "event_type": "lcl_consolidation",
+        "timestamp": "2024-11-25T12:00:00Z",
+        "location": "Singapore CFS",
+        "metadata": {
+          "consolidation_status": "new_consolidation_loaded",
+          "new_container_id": "CONT_CONS_020"
+        }
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-26T08:00:00Z",
+        "location": "Port of Singapore",
+        "metadata": {
+          "port_code": "SGSIN",
+          "vessel_name": "CMA CGM Antoine",
+          "consolidated_container": "CONT_CONS_020"
+        }
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-12-09T10:00:00Z",
+        "location": "Port of Jawaharlal Nehru",
+        "metadata": {
+          "port_code": "INJNP",
+          "expected_arrival": "2024-12-09T00:00:00Z",
+          "vessel_name": "CMA CGM Antoine"
+        }
+      },
+      {
+        "event_type": "customs_clearance",
+        "timestamp": "2024-12-10T16:00:00Z",
+        "location": "Customs Port of Jawaharlal Nehru",
+        "metadata": {
+          "clearance_status": "approved",
+          "clearance_time": 180,
+          "exception": "Extended hold due to re-export license verification"
+        }
+      },
+      {
+        "event_type": "lcl_delivery",
+        "timestamp": "2024-12-12T14:00:00Z",
+        "location": "Delhi CFS",
+        "metadata": {
+          "delivery_status": "delivered",
+          "packages": 115,
+          "delivery_delay_reason": "Customs hold for license verification"
+        }
+      }
+    ]
+  },
+  {
+    "container_id": "CONT_LCL_IMP_T006",
+    "shipment_type": "LCL",
+    "trade_type": "import",
+    "service_type": "transshipment",
+    "origin": "Bangkok CFS, Thailand",
+    "transshipment_port": "Port of Singapore",
+    "destination": "Mumbai CFS, India",
+    "shipper": "Bangkok Trade Company",
+    "consignee": "Mumbai Global Imports",
+    "commodity": "Textiles & Garments",
+    "lcl_details": {
+      "volume_cbm": 23.0,
+      "weight_kg": 14000,
+      "packages": 125
+    },
+    "events": [
+      {
+        "event_type": "lcl_pickup",
+        "timestamp": "2024-11-16T06:00:00Z",
+        "location": "Bangkok CFS",
+        "metadata": {
+          "cfs_code": "THBKK_CFS_01",
+          "pickup_status": "completed",
+          "packages": 125
+        }
+      },
+      {
+        "event_type": "road_checkpoint",
+        "timestamp": "2024-11-16T12:00:00Z",
+        "location": "Thailand border checkpoint",
+        "metadata": {
+          "checkpoint_type": "border",
+          "status": "delayed",
+          "delay_hours": 2
+        }
+      },
+      {
+        "event_type": "lcl_consolidation",
+        "timestamp": "2024-11-17T14:00:00Z",
+        "location": "Bangkok CFS",
+        "metadata": {
+          "consolidation_status": "consolidation_completed",
+          "container_id": "CONT_CONS_021"
+        }
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-18T10:00:00Z",
+        "location": "Port of Bangkok",
+        "metadata": {
+          "port_code": "THBKK",
+          "vessel_name": "Seatrade Bangkok",
+          "consolidated_container": "CONT_CONS_021"
+        }
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-11-23T12:00:00Z",
+        "location": "Port of Singapore",
+        "metadata": {
+          "port_code": "SGSIN",
+          "transshipment_status": "transshipment_port_arrived"
+        }
+      },
+      {
+        "event_type": "lcl_deconsolidation",
+        "timestamp": "2024-11-24T14:00:00Z",
+        "location": "Singapore CFS",
+        "metadata": {
+          "deconsolidation_status": "deconsolidation_in_progress",
+          "delay_reason": "port_equipment_unavailable",
+          "packages": 125
+        }
+      },
+      {
+        "event_type": "lcl_consolidation",
+        "timestamp": "2024-11-26T16:00:00Z",
+        "location": "Singapore CFS",
+        "metadata": {
+          "consolidation_status": "new_consolidation_loaded",
+          "new_container_id": "CONT_CONS_022"
+        }
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-27T12:00:00Z",
+        "location": "Port of Singapore",
+        "metadata": {
+          "port_code": "SGSIN",
+          "vessel_name": "MSC Sola",
+          "consolidated_container": "CONT_CONS_022"
+        }
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-12-03T14:00:00Z",
+        "location": "Port of Mumbai",
+        "metadata": {
+          "port_code": "INMUN1",
+          "expected_arrival": "2024-12-03T00:00:00Z",
+          "vessel_name": "MSC Sola"
+        }
+      },
+      {
+        "event_type": "customs_inspection",
+        "timestamp": "2024-12-04T10:00:00Z",
+        "location": "Customs Port of Mumbai",
+        "metadata": {
+          "inspection_type": "textiles_sample_testing",
+          "duration_hours": 6,
+          "status": "inspection_completed"
+        }
+      },
+      {
+        "event_type": "customs_clearance",
+        "timestamp": "2024-12-05T12:00:00Z",
+        "location": "Customs Port of Mumbai",
+        "metadata": {
+          "clearance_status": "approved",
+          "clearance_time": 180,
+          "exception": "Multiple delays - border checkpoint, port equipment, customs inspection"
+        }
+      },
+      {
+        "event_type": "lcl_delivery",
+        "timestamp": "2024-12-07T16:00:00Z",
+        "location": "Mumbai CFS",
+        "metadata": {
+          "delivery_status": "delivered_with_multiple_exceptions",
+          "packages": 125,
+          "delivery_delay_reasons": [
+            "border_delay",
+            "port_equipment_delay",
+            "customs_inspection"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "container_id": "CONT_CHINA_AFRICA_FCL",
+    "shipment_type": "FCL",
+    "trade_type": "export",
+    "origin_country": "China",
+    "destination_country": "South Africa",
+    "origin": "Port of Shanghai, China",
+    "destination": "Port of Cape Town, South Africa",
+    "shipper": "Shanghai Manufacturing Ltd",
+    "consignee": "Cape Town Distribution (Pty) Ltd",
+    "commodity": "Electronic Appliances",
+    "events": [
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-11-15T04:00:00Z",
+        "location": "Port of Shanghai",
+        "metadata": {
+          "port_code": "CNSHA",
+          "expected_arrival": "2024-11-15T00:00:00Z",
+          "vessel_name": "COSCO Shipping Galaxy"
+        }
+      },
+      {
+        "event_type": "customs_clearance",
+        "timestamp": "2024-11-16T12:00:00Z",
+        "location": "Customs Port of Shanghai",
+        "metadata": {
+          "clearance_status": "approved",
+          "clearance_time": 120
+        }
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-17T10:00:00Z",
+        "location": "Port of Shanghai",
+        "metadata": {
+          "port_code": "CNSHA",
+          "vessel_name": "COSCO Shipping Galaxy"
+        }
+      },
+      {
+        "event_type": "in_transit",
+        "timestamp": "2024-12-05T00:00:00Z",
+        "location": "Indian Ocean",
+        "metadata": {
+          "voyage_status": "at_sea",
+          "current_position": "8.0\u00b0S 72.0\u00b0E"
+        }
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-12-20T10:00:00Z",
+        "location": "Port of Cape Town",
+        "metadata": {
+          "port_code": "ZACPT",
+          "expected_arrival": "2024-12-20T00:00:00Z",
+          "vessel_name": "COSCO Shipping Galaxy"
+        }
+      }
+    ]
+  },
+  {
+    "container_id": "CONT_CHINA_AFRICA_LCL",
+    "shipment_type": "LCL",
+    "trade_type": "export",
+    "origin_country": "China",
+    "destination_country": "Kenya",
+    "origin": "Shenzhen CFS, China",
+    "destination": "Mombasa CFS, Kenya",
+    "shipper": "Shenzhen Export Group",
+    "consignee": "Nairobi Distribution Center",
+    "commodity": "Consumer Electronics & Accessories",
+    "lcl_details": {
+      "volume_cbm": 24.0,
+      "weight_kg": 15000,
+      "packages": 140
+    },
+    "events": [
+      {
+        "event_type": "lcl_pickup",
+        "timestamp": "2024-11-15T08:00:00Z",
+        "location": "Shenzhen CFS",
+        "metadata": {
+          "cfs_code": "CNSZX_CFS_01",
+          "pickup_status": "completed",
+          "packages": 140
+        }
+      },
+      {
+        "event_type": "lcl_consolidation",
+        "timestamp": "2024-11-16T12:00:00Z",
+        "location": "Shenzhen CFS",
+        "metadata": {
+          "consolidation_status": "consolidation_completed",
+          "container_id": "CONT_CONS_023"
+        }
+      },
+      {
+        "event_type": "port_departure",
+        "timestamp": "2024-11-17T14:00:00Z",
+        "location": "Port of Shenzhen",
+        "metadata": {
+          "port_code": "CNSZX",
+          "vessel_name": "ONE Innovation",
+          "consolidated_container": "CONT_CONS_023"
+        }
+      },
+      {
+        "event_type": "port_arrival",
+        "timestamp": "2024-12-13T10:00:00Z",
+        "location": "Port of Mombasa",
+        "metadata": {
+          "port_code": "KEMBA",
+          "expected_arrival": "2024-12-13T00:00:00Z",
+          "vessel_name": "ONE Innovation"
+        }
+      },
+      {
+        "event_type": "lcl_delivery",
+        "timestamp": "2024-12-15T14:00:00Z",
+        "location": "Mombasa CFS",
+        "metadata": {
+          "delivery_status": "delivered",
+          "packages": 140
+        }
+      }
+    ]
+  }
+]
